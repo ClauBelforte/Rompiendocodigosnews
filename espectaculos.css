@@ -1,28 +1,52 @@
-body{
-    margin: 25px;
-    padding: 15px;
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
-    /* display: flex;
-    flex-flow: column wrap; */
-    
+body{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;    
 }
 
 /* INICIO CABEZERA */
 header{
     width: 100%;
-    height: 300PX;
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
 
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
+    justify-content: center;
+    
+}
+#encabezado{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:1;
 }
 #cabecera{
+
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
+#cabecera div{
+    margin-top: 50px;
+    margin: 10px;
+    font-size: xx-large;
+    line-height: 75px;
+}
+#cabecera h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin: 0px 0px 0px 250px;
+    color: #FB0000;
 
-/* MENU DEPLGABLE */
+    align-self: center;
+}
+/* MENU DEPLeGABLE */
 #menuDesplegable > ul{
     display: none;
     position: absolute;
@@ -30,5 +54,53 @@ header{
 /* FIN MENU DESPLEGABLE */
 
 header #imgCabecera img{
+    margin-left: 40px;
     width: 200px;
+}
+#menu{
+    height: 45px;
+    background-color: #3A2F2F;
+
+}
+#menu nav ul {
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-evenly;
+}
+#menu nav ul li{
+    padding: 15px;
+    list-style: none;
+}
+#menu nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+/* INICIO MAIL */
+#main{
+    padding-top: 200px;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between; 
+}
+
+main section{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+main section .art-principal{
+    width: 400px;
+}
+main section article figure img{
+    width: 400px;
+}
+#aside aside figure img{
+    width: 300px;;
 }
