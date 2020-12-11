@@ -1,0 +1,34 @@
+body{
+    margin: 25px;
+    padding: 15px;
+
+    /* display: flex;
+    flex-flow: column wrap; */
+    
+}
+
+/* INICIO CABEZERA */
+header{
+    width: 100%;
+    height: 300PX;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+#cabecera{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/* MENU DEPLGABLE */
+#menuDesplegable > ul{
+    display: none;
+    position: absolute;
+}
+/* FIN MENU DESPLEGABLE */
+
+header #imgCabecera img{
+    width: 200px;
+}
