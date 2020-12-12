@@ -11,35 +11,30 @@ a {
     font-size: 18px;
 }
 
+
+a.palabra:hover {
+    font-weight: bold;
+
+}
+
 body {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    color: var(--gris);
 }
 
 header {
     background-color: var(--blanco);
     flex-flow: row wrap;
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-start;
-
-}
-
-section .container {
-    flex-flow: row wrap;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-
-.publicidad {
-    width: 300px;
-    height: 800px;
-    margin: 10px;
-}
-
-i {
-    font-size: 28px;
-    align-items: flex-start;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
 }
 
 nav {
@@ -52,19 +47,11 @@ nav {
     transition: 0.8s;
 }
 
-a.palabra:hover {
-    font-weight: bold;
-
-}
-
-.container .publidad {
-    position: fixed;
-    object-fit: cover;
-}
-
-.logo-negro {
-    width: 270px;
-    margin-left: 10px;
+section .container {
+    flex-flow: row wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 section .container .slider{
@@ -76,9 +63,35 @@ section .container .slider{
 
 }
 
+.publicidad {
+    width: 200px;
+    height: 480px;
+    position: fixed;
+    right: 0px;
+    top: 150px;
+}
+
+.container-slider {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: start;
+}
+
+.container .publidad {
+    position: fixed;
+    object-fit: cover;
+}
+
+.logo-negro {
+    margin-left: 0px;
+    width: 250px;
+    margin-top: 0;
+}
+
 .menu {
     text-align: center;
-    margin: 20px;
+    margin: 0;
+    justify-content: center;
 }
 
 .menu li {
@@ -103,24 +116,17 @@ ul, li {
     list-style: none;
 }
 
-#inicio .container {
-    
-    background-color: var(--blanco);
-    width: 800px;
-    padding: 30px;
-}
-
 ul.slider {
     position: relative;
-    width: 700px;
-    height: 300px;
+    width: 800px;
+    height: 400px;
 }
 
 ul.slider li {
     position: absolute;
     left: 0;
     top: 0;
-    opacity: 1;
+    opacity: 0;
     width: inherit;
     height: inherit;
     background-color: white;
@@ -129,8 +135,18 @@ ul.slider li {
 
 ul.slider li img {
     width: 100%;
-    height: 300px;
+    height: 400px;
     object-fit: cover;
+    z-index: 1;
+}
+
+ul.slider li p {
+    color: var(--gris);
+    position: absolute;
+    z-index: 2;
+    align-content: center;
+
+
 }
 
 ul.slider li:first-child {
@@ -140,4 +156,57 @@ ul.slider li:first-child {
 
 ul.slider li:target {
     opacity: 1;
+}
+
+#inicio {
+    padding-top: 8rem;
+}
+
+#inicio .container {
+    
+    background-color: var(--blanco);
+    width: 800px;
+    padding: 30px;
+}
+
+.slide1 {
+    z-index: 1;
+}
+
+#menudes > ul > li > ul > li > a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 15px 0px;
+    margin: 50px 0;
+}
+#menudes > ul > li > ul > li > img {
+    width: 200px;
+    padding: 15px 0px;
+}
+#menudes > ul > li > ul {
+    display: none;
+    position: absolute;
+}
+#menudes > ul > li:hover > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 100%;
+    background-color: var(--negro);
+    list-style: none;
+    position:fixed;
+    left: 50px;
+    justify-content: space-evenly;
+    top: 0;
+}
+
+#icon-menu img{
+    width: 30px;
+    align-content: center;
+    padding-left: 5px;
+    padding-top: 30px;
 }
