@@ -46,11 +46,43 @@ header{
 
     align-self: center;
 }
+#icon-menu img{
+    width: 30px;
+}
+
+
 /* MENU DEPLeGABLE */
-#menuDesplegable > ul{
+#nav > ul > li > ul > li > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 15px 0px;
+    /* margin: 50px 0px; */
+}
+#nav > ul > li > ul > li > img{
+    width: 200px;
+    padding: 15px 0px;
+}
+#nav > ul > li > ul{
     display: none;
     position: absolute;
 }
+#nav > ul > li:hover > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 250px;
+    height: auto;
+    background-color: #0D0C0C;
+    list-style: none;
+    position:fixed;
+    top:0px;
+    left:50px
+}
+
 /* FIN MENU DESPLEGABLE */
 
 header #imgCabecera img{
