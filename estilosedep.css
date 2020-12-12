@@ -77,23 +77,45 @@ header #logoCabecera img{
 
 #noticias{
     display: flex;
-    margin-top: 150px;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
-#noticias ul{
-    list-style: none;
+#noticias ul {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-flow: wrap row;
 }
 
 #noticias ul li{
+    list-style: none;
+    width: 500px;
+    border: 1px;
+    margin-top: 200px;
+    border:1px solid black;
+}
+
+#noticias2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#noticias2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#noticias2 ul li{
     padding: 15px;
     list-style: none;
     width: 300px;
-    padding: 100px;
-    border: 1px;
+    padding: 50px;
+    border:1px solid black;
+    margin-left: 1px;
+    margin-right: 1px;
+
 }
 
 /*FIN*/
