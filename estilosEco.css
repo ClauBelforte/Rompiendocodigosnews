@@ -7,32 +7,56 @@
 
 body{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow:  wrap column;
     justify-content: space-around;    
 }
-
+/* POR AHORA */
 #navegacion ul{ 
         display: none;
         position: absolute;
     }
-}
 
+ #head{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index:1;
+       
+    }
 
 header{
     width: 100%;
     background-color: #FFFFFF;
     margin-bottom: 50px;
-   
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    
+    
+}
+
+header h1{
+    align-self: center;
+    
     
 }
 
 
  #CD h1{
-    text-align:center;
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
     margin: 0px 0px 0px 250px;
     color: #FB0000;
+    align-self: center;
+}
+
+}
+
+#CD{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-self: center;
 }
 
 /* MENU ICONO */
@@ -52,19 +76,33 @@ font-size: 2em;
 
 /* menu horizontal */
 
-.munu{
+.menu{
+    height: 45px;
+    background-color: #0D0C0C;
+
+}
+.MN nav ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-evenly;
+}
+.MN nav ul li{
+    padding: 15px;
+    list-style: none;
+}
+.MN nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
 
 }
 
-.menu ul{
+/* contenido (noticias) */
+
+main{
+
+    margin-top: 11%;
+  
 
 }
-
-
-.menu ul li{
-
-}
-
-.menu li a{
-    
-} 
