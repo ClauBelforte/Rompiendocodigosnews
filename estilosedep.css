@@ -93,6 +93,7 @@ header #logoCabecera img{
     list-style: none;
     width: 300px;
     padding: 100px;
+    border: 1px;
 }
 
 /*FIN*/
