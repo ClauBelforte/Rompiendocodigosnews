@@ -4,6 +4,8 @@
 }
 
 body{
+    font-family: 'Raleway', sans-serif;
+
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;    
@@ -45,11 +47,43 @@ header{
 
     align-self: center;
 }
+#icon-menu img{
+    width: 30px;
+}
+
+
 /* MENU DEPLeGABLE */
-#menuDesplegable > ul{
+#nav > ul > li > ul > li > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 15px 0px;
+    /* margin: 50px 0px; */
+}
+#nav > ul > li > ul > li > img{
+    width: 200px;
+    padding: 15px 0px;
+}
+#nav > ul > li > ul{
     display: none;
     position: absolute;
 }
+#nav > ul > li:hover > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    background-color: #0D0C0C;
+    list-style: none;
+    
+    position:fixed;
+    top:0px;
+    left:40px
+}
+
 /* FIN MENU DESPLEGABLE */
 
 header #imgCabecera img{
@@ -72,12 +106,20 @@ header #imgCabecera img{
 #menu nav ul li{
     padding: 15px;
     list-style: none;
+    color: #FFFFFF;
+    font-size: 18px;
 }
 #menu nav ul li a{
     text-decoration: none;
     color: #FFFFFF;
-
+    font-size: 18px;
 }
+/* #menu nav ul li::after{
+    content: "|";
+    color: #FFFFFF;
+    margin-left: 50%;
+} */
+/* FIN DEL HEADER */
 
 /* INICIO MAIL */
 #main{
@@ -116,12 +158,12 @@ main section .art-principal2{
     border: 1px solid #3A2F2F;
 }
 .art-principal2 figure img{
-    width: 350px;
+    width: 320px;
     padding: 20px;
 }
 main section .art-gral{
     width: 300px;
-    height: 250px;
+    height: 300px;
     border: 1px solid #3A2F2F;
 }
 main section .art-gral figure img{
@@ -140,7 +182,7 @@ main section .art-gral figure img{
 INICIO FOOTER */
 span{
     margin: 10px;
-    color: #FB0000;
+    color: #3A2F2F;
     display: flex;
     justify-content: center;
 }
