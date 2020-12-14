@@ -24,10 +24,13 @@ body{
 #nav>ul>li>ul>li>a{
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
+    font-size: large;
+    line-height: 75px;
 }
 #nav > ul > li > ul > li > img{
     width: 200px;
-    padding: 15px 0px;
+    margin: 0;
+    padding: 0px;
 }
 #nav > ul > li > ul{
     display: none;
@@ -67,4 +70,17 @@ h1{
 }
 #menufijo>ul>li{
     list-style: none;
+    color: white;
+    font-size: 25px;
+}
+#menufijo>ul>li>a{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+#menufijo>ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: #000000;    
 }
