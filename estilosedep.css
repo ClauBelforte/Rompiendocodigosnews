@@ -5,7 +5,8 @@
 
 body{
    display: flex;    
-   flex-direction: column;
+   flex-flow: column wrap;
+   justify-content: space-around; 
    font-family: 'Raleway', sans-serif;
 }
 
@@ -53,7 +54,14 @@ header{
 #cabecera{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+#cabecera div{
+    margin-top: 50px;
+    margin: 10px;
+    font-size: xx-large;
+    line-height: 75px;
 }
 
 #cabecera h1{
@@ -62,7 +70,7 @@ header{
     color:#fb0000;
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
-    margin-right: 45%;
+    margin-left: 250px;
 }
 
 header #logoCabecera img{
@@ -83,8 +91,9 @@ header #logoCabecera img{
 }
 
 #noticias ul {
+    list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-flow: wrap row;
 }
 
@@ -94,11 +103,15 @@ header #logoCabecera img{
     border: 1px;
     margin-top: 200px;
     border:1px solid black;
+    padding: 15px;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 #noticias2{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 #noticias2 ul{
@@ -121,12 +134,59 @@ header #logoCabecera img{
 
 /*FIN*/
 
+/* MENU DEPLeGABLE */
+#icon-menu img{
+    width: 30px;
+}
+
+#nav > ul > li > ul > li > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 15px 0px;
+    /* margin: 50px 0px; */
+}
+#nav > ul > li > ul > li > img{
+    width: 200px;
+    padding: 15px 0px;
+}
+#nav > ul > li > ul{
+    display: none;
+    position: absolute;
+}
+#nav > ul > li:hover > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    background-color: #0D0C0C;
+    list-style: none;
+    
+    position:fixed;
+    top:0px;
+    left:40px
+}
+
+/* FIN MENU DESPLEGABLE */
+
+
 /**/
 /*INICIO*/
 
 /*FIN*/
 
-/**/
+/*footer*/
 /*INICIO*/
+
+footer{
+    text-align: center;
+    color: #3a2f2f;
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
 
 /*FIN*/
