@@ -1,108 +1,163 @@
-
-
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: %;
+    padding: 0;
 }
 
 body{
-    display: flex;
-    flex-flow:  wrap column;
-    justify-content: space-around;    
+
+    overflow-x: hidden;
 }
-/* POR AHORA */
-#navegacion ul{ 
-        display: none;
-        position: absolute;
-    }
-
- #head{
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        z-index:1;
-       
-    }
-
-header{
+.content-all{
+    border: 1px solid darkblue;
+    
     width: 100%;
-    background-color: #FFFFFF;
-    margin-bottom: 50px;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    
-    
-}
-
-header h1{
-    align-self: center;
-    
-    
+    max-width: 2000px;
 }
 
 
- #CD h1{
-    font-family: 'Raleway', sans-serif;
-    font-size: 35px;
-    margin: 0px 0px 0px 250px;
-    color: #FB0000;
-    align-self: center;
+
+.navegacion2{
+ width: 100%;
+ display: flex;
+    max-width: 2000px;
+    height: 200px;
+    border: 1px solid red;
 }
 
+
+/* nombre */
+
+.nombre{
+   display: flex;
+   flex-flow: wrap row;
+   justify-content: center;
+   align-items: flex-start;
+    width: 100%;
+    max-width: 2000px;
+    ;
+    height: 200px;
 }
-
-#CD{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-self: center;
-}
-
-/* MENU ICONO */
-
-.icon-menu{
-
-font-size: 2em;
-
+.nombre h1{
+    margin-top: -5%
 }
 
 /* logo */
-
-#cabeza img{
-    margin-left: 1em;
-}
-
-
-/* menu horizontal */
-
-.menu{
-    height: 45px;
-    background-color: #0D0C0C;
-
-}
-.MN nav ul {
-    margin: 0px;
-    padding: 0px;
+.logo{
     display: flex;
-    flex-direction: row wrap;
-    justify-content: space-evenly;
+    margin-top: 2%;
 }
-.MN nav ul li{
-    padding: 15px;
+
+.Logo{
+    
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center ;
+    display: flex;
+    
+    align-items: center;
+    color: #FB0000;
+    border: 1px solid blue;
+    width: 100%;
+    max-width: 2000px;
+}
+
+
+
+
+/* menu2 */
+
+.menu2{
+    display: flex;
+    flex-flow: wrap row;
+    border: 1px solid yellow
+}
+
+
+.menu2{
+    color:  black;
+}
+.iconodemenu{
+   font-size: 16px;
+}
+
+.navegacion2{
+    display: flex;
+    
+    border: 3px solid yellow;
+    
+    width: : 100%;
+    
+}
+
+.navegacion2 ul{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.navegacion2 ul li a{
+    text-decoration: none;
+    color: blue;
+}
+.navegacion2 ul li{
+    
+    
     list-style: none;
 }
-.MN nav ul li a{
+
+ 
+ 
+
+ 
+/* menu1 principal */
+
+.menu1{
+display: flex;
+width: 100%;
+max-width: 1920px;
+}
+
+
+
+.menu1 ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid green;
+    width: 100%;
+    max-width: 2000px;
+    height: 40px;
+    background-color: #3A2F2F;
+    
+}
+
+
+   
+.menu1 ul{
+    list-style: none;
+    background-color: #3A2F2F;
+   
+}
+
+.menu1 ul li a{
     text-decoration: none;
-    color: #FFFFFF;
-
+    color: #FFFFFF;;
+   
 }
 
-/* contenido (noticias) */
+ 
 
-main{
+ /* Publicidad */
+ 
+ .publicidad1{
+     display: flex;
+     justify-content: ;
+     align-self: ;
+     border: 1px solid red;
+     width: 5%%;
+     height: 600px;
+    float: right;
+   margin: 0;
 
-    margin-top: 11%;
-  
-
-}
+ 
+ /* menu desplegable */
