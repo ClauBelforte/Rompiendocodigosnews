@@ -58,7 +58,7 @@ h1{
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
     margin: 0px 0px 0px 100px;
-    color:  #0D0C0C;
+    color:  #fb0000;
     align-self: center;
 }
 
@@ -71,7 +71,7 @@ h1{
 #menufijo>ul>li{
     list-style: none;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 #menufijo>ul>li>a{
     font-family: 'Raleway', sans-serif;
