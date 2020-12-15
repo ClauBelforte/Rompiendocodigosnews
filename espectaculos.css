@@ -21,7 +21,6 @@ header{
     width: 100%;
     background-color: #FFFFFF;
     margin-bottom: 50px;
-
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
