@@ -92,7 +92,7 @@ header{
     list-style: none;
     
     position:fixed;
-    top:0px;
+    top:5px;
     left:40px
 }
 
@@ -169,7 +169,7 @@ main .ubicacion ul{
 
 /* FIN DEL HEADER */
 
-/* INICIO MAIL */
+/* INICIO MAIN */
 #main{
     padding-top: 140px;
     
@@ -188,7 +188,7 @@ main section article{
     margin-bottom: 10px;
 }
 #articulos{
-    width: 85%;
+    width: 84%;
 }
 main section .art-principal{
     width: 510px;
@@ -218,14 +218,14 @@ main section .art-gral figure img{
 }
 section aside{
     width: 200px;
+    padding: 5%;
 }
 #aside aside img{
     width: 200px;
     height: 480px;
+    
 
-    /* position: fixed;
-    right: 0px;
-    top: 150px; */
+    align-self: center;
 }
 
 
@@ -280,8 +280,38 @@ sugerencias */
     justify-content: space-around;
     align-items: center;    
 }
+aside{
+    background-color: #3A2F2F;
+}
+aside form{
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 5%;
+    padding: 5px 0px;
 
-
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+aside form input{
+    padding: 5px;
+    margin: 10px 0px;    
+}
+aside h2{
+    text-transform: uppercase;
+    color: #FB0000;
+    padding: 5px 0px;
+    text-decoration: underline;
+    padding-bottom: ;
+}
+aside form input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    background-color: #3A2F2F;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
 
 
 
