@@ -54,10 +54,9 @@ header{
 #icon-menu img{
     width: 30px;
 }
-#cabecera #clima{
-    border:1px solid #3A2F2F;
+#cabecera .clima{
     width: 300px;
-    text-align: center;
+    height: 70px !important;
     margin-left: 200px;
 
 }
@@ -123,6 +122,18 @@ header #imgCabecera img{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 18px;
+}
+#menu nav ul #vivo{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+#circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #FB0000;
+    color: #FB0000;
+    margin-right: 10px;
 }
 /* FIN DEL HEADER */
 
