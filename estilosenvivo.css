@@ -1,0 +1,302 @@
+:root {
+    --gris: #3A2F2F;
+    --negro: #0D0C0C;
+    --rojo: #FB0000;
+    --blanco:#FFFFFF;
+}
+
+
+/* Menú desplegable */
+
+#menudes {
+   display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#icon-menu img{
+    width: 30px;
+    align-content: center;
+    padding-left: 5px;
+    padding-top: 30px;
+}
+
+#menudes > ul > li > ul {
+    border: 1px solid var(--blanco);
+}
+
+#menudes > ul > li > ul > li > a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#menudes > ul > li > ul > li > a:hover {
+    font-weight: bold;
+}
+
+#menudes > ul > li > ul > li > img {
+    width: 200px;
+    padding: 0px;
+    margin: 0;
+
+}
+#menudes > ul > li > ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+
+}
+#menudes > ul > li:hover > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    background-color: var(--negro);
+    list-style: none;
+    position:fixed;
+    left: 50px;
+    justify-content: space-evenly;
+    align-content: center;
+    top: 0;
+    padding-right: 30px;
+}
+
+/* Header */
+
+header a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 18px;
+}
+
+header a.palabra:hover {
+    font-weight: bold;
+}
+
+i {
+    color: red;
+    font-size: 15px;
+}
+
+.logoymenu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.logo-negro {
+    width: 250px;
+    margin: 0;
+}
+
+.container-slider {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container-slider img {
+    margin-left: 0;
+}
+
+.widgets {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clima {
+   margin: 15px;
+   padding-right: 50px;
+}
+
+header {
+    background-color: var(--blanco);
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+}
+
+nav {
+    background-color: var(--gris);
+    height: 40px ;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    transition: 0.8s;
+}
+
+
+/* Body */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+body li {
+    list-style: none;
+}
+#videos {
+    display: flex;
+    align-items: center;
+    padding-top: 10em;
+    justify-content: space-around;
+}
+
+    #video {
+        margin: 1.5em;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    color: var(--blanco);
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-end;
+    background-color: var(--negro);
+}
+
+
+footer p {
+    text-align: center;
+    color: var(--rojo);
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+footer ul li{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: left;
+    margin-bottom: 10px;
+}
+
+
+footer a {
+    color: var(--blanco);
+    font-size: 15px;
+    text-decoration: none;
+    list-style: square;
+}
+
+footer a:hover {
+    font-weight: bold
+}
+
+footer h2 {
+    font-size: 18px ;
+}
+
+footer img {
+    width: 220px;
+    height: 130px;
+    margin-left: 50px;
+    padding-top: 60px;
+}
+
+.container-footer {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.contacto {
+    padding-right: 0px;
+}
+.social {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.redes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-right: 190px;
+}
+.redes i {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.facebook i {
+    color: rgb(58, 58, 196);
+}
+
+.facebook i:hover {
+    color: rgb(95, 95, 226);
+}
+
+.twitter i {
+    color: rgb(0, 217, 255);
+}
+
+.twitter i:hover {
+    color: rgb(54, 183, 206) ;
+}
+
+.instagram i {
+    color: rgb(214, 52, 174);
+}
+
+.instagram i:hover {
+    color: rgb(187, 43, 151);
+}
