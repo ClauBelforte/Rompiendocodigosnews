@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    list-style: none;
+    list-style-type: none;
 }
 
 #icon-menu img{
@@ -26,7 +26,6 @@ body {
     align-content: center;
     padding-left: 5px;
     padding-top: 30px;
-    list-style-type: none;
 }
 
 #menudes > ul > li > ul {
@@ -149,10 +148,16 @@ nav {
     transition: 0.8s;
 }
 
-#video {
+#videos {
     display: flex;
     align-items: center;
+    padding-top: 10em;
+    justify-content: space-around;
 }
+
+    #video {
+        margin: 1.5em;
+    }
 
 
 
