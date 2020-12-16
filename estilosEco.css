@@ -1,163 +1,165 @@
 *{
-    margin: %;
-    padding: 0;
+margin: 0 ;
+padding: 0;
+
 }
+
 
 body{
-
-    overflow-x: hidden;
-}
-.content-all{
-    border: 1px solid darkblue;
-    
-    width: 100%;
-    max-width: 2000px;
+    font-family: 'Raleway', sans-serif;
+   
 }
 
-
-
-.navegacion2{
- width: 100%;
- display: flex;
-    max-width: 2000px;
-    height: 200px;
-    border: 1px solid red;
-}
-
-
-/* nombre */
-
-.nombre{
+header{
    display: flex;
-   flex-flow: wrap row;
-   justify-content: center;
-   align-items: flex-start;
     width: 100%;
-    max-width: 2000px;
-    ;
+    flex-flow: row wrap;
+    position: ;
+    justify-content: flex-start;
+    height: 100%;
+
+
+}
+
+
+
+/* menu desplegable */
+
+
+li img{
+    width: 200px;
     height: 200px;
 }
-.nombre h1{
-    margin-top: -5%
-}
 
-/* logo */
-.logo{
-    display: flex;
-    margin-top: 2%;
-}
-
-.Logo{
-    
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center ;
-    display: flex;
-    
-    align-items: center;
-    color: #FB0000;
-    border: 1px solid blue;
-    width: 100%;
-    max-width: 2000px;
-}
-
-
-
-
-/* menu2 */
-
-.menu2{
-    display: flex;
-    flex-flow: wrap row;
-    border: 1px solid yellow
-}
-
-
-.menu2{
-    color:  black;
-}
-.iconodemenu{
-   font-size: 16px;
-}
-
-.navegacion2{
-    display: flex;
-    
-    border: 3px solid yellow;
-    
-    width: : 100%;
+.icon-menu{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0;
+    justify-content: 
     
 }
-
-.navegacion2 ul{
-    display: flex;
-    flex-flow: column wrap;
-}
-
-.navegacion2 ul li a{
-    text-decoration: none;
-    color: blue;
-}
-.navegacion2 ul li{
-    
-    
-    list-style: none;
-}
-
- 
- 
-
- 
-/* menu1 principal */
 
 .menu1{
-display: flex;
-width: 100%;
-max-width: 1920px;
+    
+    margin-left: 10px;  
+}
+
+.menu1 .contenido-men {
+    
+   display: none;
+    background-color: #0D0C0C;
+    margin-left: 50px;
+    margin-top: -50%;
+    list-style: none;
+    width: 200px;
+    height: 1080px;
+    
+   
+}
+
+.contenido-men{
+    display: flex;
+    flex-flow: column wrap;
+ justify-content: space-evenly;
+    flex-flow: column wrap;
+    align-items: center;
+    
+}
+
+.menu1 .contenido-men a{
+    background-color: #0D0C0C;
+    color: #FFFFFF;
+    
+}
+
+
+.menu1 .contenido-men li a{
+    text-decoration: none;
+   
+}
+
+.menu1 .contenido-men ul li{
+   
+    color: #FFFFFF;
+}
+
+
+/* cabecera */
+  
+.logo2 {
+    margin-left: 0px;
+    width: 250px;
+    margin-top: 0;
+}
+  
+
+
+.nombre{
+    display: flex;
+    flex-flow: row wrap;
+     align-items: center; 
+     justify-content: center; 
+     color:  #FB0000;
 }
 
 
 
-.menu1 ul{
-    display: flex;
+
+/* menu principal */
+
+.menu2{
+    width: 100%;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid green;
-    width: 100%;
-    max-width: 2000px;
+    display: flex;
+     background-color: #3A2F2F; 
     height: 40px;
-    background-color: #3A2F2F;
+   z-index: 10;
+   position: ;
+}
+
+.menu2 a{
+    
+   
+}
+
+.menu2  li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+.menu2 li{
+list-style: none;
+}
+
+
+
+/* contenido */
+
+
+#categorias{
+    border: 1px solid green;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-self: center;
+    width: 60%;
+    height: ;
+    margin-top: ;
     
 }
 
 
-   
-.menu1 ul{
-    list-style: none;
-    background-color: #3A2F2F;
-   
+/* publicidad */
+
+.logo39A{
+  right:  0;
+  position: absolute ; 
+  width: 200px;
+    height: ;
+    
+    
 }
-
-.menu1 ul li a{
-    text-decoration: none;
-    color: #FFFFFF;;
-   
-}
-
- 
-
- /* Publicidad */
- 
- .publicidad1{
-     display: flex;
-     justify-content: ;
-     align-self: ;
-     border: 1px solid red;
-     width: 5%%;
-     height: 600px;
-    float: right;
-   margin: 0;
-
- 
- /* menu desplegable */
