@@ -9,23 +9,21 @@
 /* Menú desplegable */
 
 #menudes {
-    display: flex;
+   display: flex;
     justify-content: center;
     align-content: center;
 }
 
-#icon-menu img {
+#icon-menu img{
     width: 30px;
     align-content: center;
     padding-left: 5px;
     padding-top: 30px;
 }
 
-
 #menudes > ul > li > ul {
     border: 1px solid var(--blanco);
 }
-
 
 #menudes > ul > li > ul > li > a {
     color: var(--blanco);
@@ -44,14 +42,13 @@
 #menudes > ul > li > ul > li > img {
     width: 200px;
     padding: 0px;
-    margin: 0px;
-    list-style-type: none;
+    margin: 0;
 
 }
 #menudes > ul > li > ul {
     display: none;
     position: absolute;
-    list-style-type: none;
+    list-style: none;
     justify-content: center;
     align-content: center;
 
@@ -63,7 +60,7 @@
     width: 200px;
     height: 100%;
     background-color: var(--negro);
-    list-style-type: none;
+    list-style: none;
     position:fixed;
     left: 50px;
     justify-content: space-evenly;
@@ -119,8 +116,8 @@ i {
 }
 
 .clima {
-    margin: 15px;
-    padding-right: 50px;
+   margin: 15px;
+   padding-right: 50px;
 }
 
 header {
@@ -193,6 +190,7 @@ section .container {
 }
 
 #inicio .container {
+    
     background-color: var(--blanco);
     width: 800px;
     padding: 30px;
@@ -210,6 +208,7 @@ section .container {
 }
 
 .menu li a {
+   
     display: inline-block;
     color: var(--negro);
     text-decoration: none;
@@ -217,6 +216,7 @@ section .container {
     font-size: 50px;
     height: 20px;
     width: 20px;
+    
 }
 
 #mininoticias {
@@ -238,9 +238,9 @@ b {
 }
 
 .noticia {
-    width: 220px;
-    padding: 30px;
-    border: 1px solid rgb(167, 162, 162);
+   width: 220px;
+   padding: 30px;
+   border: 1px solid rgb(167, 162, 162);
 }
 
 .noticia img {
