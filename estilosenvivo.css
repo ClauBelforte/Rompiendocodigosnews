@@ -151,15 +151,26 @@ body li {
     list-style: none;
 }
 
-#videos {
+#vids {
+    display: flex;
+    align-items: center;
+    padding-top: 1.4em;
+    justify-content: space-around;
+}
+    #vid {
+        margin: 1.5em;
+    }
+
+
+#nomvid {
     display: flex;
     align-items: center;
     padding-top: 10em;
     justify-content: space-around;
 }
-
-    #video {
-        margin: 1.5em;
+    #tit {
+        margin-top: 1em;
+        font-size: 2em;
     }
 
 
