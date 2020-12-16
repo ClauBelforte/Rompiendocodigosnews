@@ -80,9 +80,9 @@ header{
     display: none;
     position: absolute;
 }
-#nav > ul > li:active > ul{
+#nav > ul > li:hover > ul{
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column; 
     align-items: center;
     width: 250px;
     height: auto;
