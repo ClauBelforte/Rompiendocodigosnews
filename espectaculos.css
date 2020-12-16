@@ -99,6 +99,11 @@ header #imgCabecera img{
     margin-left: 40px;
     width: 200px;
 }
+.class{
+    width: 200px;
+    height: 70px !important;
+    margin-left: 300px;
+}
 #menu{
     height: 45px;
     background-color: #3A2F2F;
@@ -149,6 +154,9 @@ main section{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+}
+main h2{
+    padding: 10px;
 }
 main .ubicacion{
     width: 100%;
@@ -206,6 +214,9 @@ main section .art-gral figure img{
 section aside{
     width: 200px;
     padding: 5%;
+    background-color: #3A2F2F;
+    height: 1000px;
+    
 }
 #aside aside img{
     width: 200px;
@@ -232,9 +243,7 @@ section aside{
     align-items: center;
 }
 
-aside{
-    background-color: #3A2F2F;
-}
+
 aside form{
     margin-top: 30px;
     background-color: #ffffff;
@@ -267,9 +276,27 @@ aside form input[type="submit"]{
 /*FIN MAIN
 
 INICIO FOOTER */
-span{
-    margin: 10px;
-    color: #3A2F2F;
+footer{
+    margin-top: 10px;
+    background-color: #3A2F2F;
+    color: #ffffff;
+
     display: flex;
-    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+}
+footer section{
+    width: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+footer figure img{
+    width: 200px;
+}
+span{
+    margin: 20px;
+    color: #FFFFFF;
 }
