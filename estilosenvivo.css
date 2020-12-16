@@ -5,21 +5,13 @@
     --blanco:#FFFFFF;
 }
 
-/* Body */
-
-body {
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-}
 
 /* Menú desplegable */
-
 
 #menudes {
     display: flex;
     justify-content: center;
     align-content: center;
-    list-style-type: none !important;
 }
 
 #icon-menu img{
@@ -27,7 +19,6 @@ body {
     align-content: center;
     padding-left: 5px;
     padding-top: 30px;
-    list-style-type: none;
 }
 
 #menudes > ul > li > ul {
@@ -52,13 +43,12 @@ body {
     width: 200px;
     padding: 0px;
     margin: 0;
-    list-style-type: none;
 
 }
 #menudes > ul > li > ul {
     display: none;
     position: absolute;
-    list-style-type: none;
+    list-style: none;
     justify-content: center;
     align-content: center;
 
@@ -148,6 +138,18 @@ nav {
     align-items: center;
     display: flex;
     transition: 0.8s;
+}
+
+
+/* Body */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+body li {
+    list-style: none;
 }
 
 #videos {
