@@ -4,6 +4,13 @@ padding: 0;
 
 }
 
+:root {
+    --gris: #3A2F2F;
+    --negro: #0D0C0C;
+    --rojo: #FB0000;
+    --blanco:#FFFFFF;
+}
+
 
 body{
     font-family: 'Raleway', sans-serif;
@@ -22,8 +29,34 @@ header{
 }
 
 
+/* circulo rojo */
+i{
+color: red
+}
+
+li i{
+    font-family: 'Raleway', sans-serif;  
+}
+
+.menu2  i:hover{
+    font-weight: bold;
+}
+
+
+/* clima */
+
+
+.clima {
+    margin: 15px;
+    padding-right: 50px;
+    margin-left: 40%;
+}
+
 
 /* menu desplegable */
+
+
+
 
 
 li img{
@@ -31,7 +64,7 @@ li img{
     height: 200px;
 }
 
-.icon-menu{
+#icon-menu{
     width: 40px;
     height: 40px;
     text-align: center;
@@ -40,49 +73,65 @@ li img{
     
 }
 
-.menu1{
-    
-    margin-left: 10px;  
+
+#apricion{
+   
+    flex-flow: column wrap;
+    z-index: 1;
+   
 }
 
-.menu1 .contenido-men {
+.aparicion2{
     
-   display: none;
-    background-color: #0D0C0C;
-    margin-left: 50px;
-    margin-top: -50%;
-    list-style: none;
-    width: 200px;
-    height: 1080px;
-    
-   
 }
 
 .contenido-men{
     display: flex;
     flex-flow: column wrap;
- justify-content: space-evenly;
-    flex-flow: column wrap;
+    justify-content: space-evenly ;
     align-items: center;
-    
-}
-
-.menu1 .contenido-men a{
+   visibility: hidden;
+    opacity: 0;
     background-color: #0D0C0C;
-    color: #FFFFFF;
+    width: 250px;
+    height: 600px;
+    position: fixed;
+    list-style: none;
+    margin-top: -50px;
+    margin-left: 40px;
+    
     
 }
 
+.contenido-men ul li{
+   
+    display: flex;
+ 
+    position: fixed;
 
-.menu1 .contenido-men li a{
+}
+
+.contenido-men ul li a{
+  
+}
+.contenido-men li a{
+    color:#FFFFFF;
     text-decoration: none;
-   
+    
+    
+    
 }
 
-.menu1 .contenido-men ul li{
-   
-    color: #FFFFFF;
+ .contenido-men ul li{
+    font-weight: 0;
 }
+
+#nav:hover .contenido-men{
+    opacity: 1;
+    visibility: visible;
+}
+
+
 
 
 /* cabecera */
@@ -99,8 +148,13 @@ li img{
     display: flex;
     flex-flow: row wrap;
      align-items: center; 
-     justify-content: center; 
+     margin-left: 200px;
      color:  #FB0000;
+     
+}
+
+.nombre h1{
+   
 }
 
 
@@ -110,19 +164,19 @@ li img{
 
 .menu2{
     width: 100%;
+    max-width: 1920px;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
     display: flex;
+    margin: 0;
      background-color: #3A2F2F; 
     height: 40px;
-   z-index: 10;
-   position: ;
+    font-family: 'Raleway', sans-serif;
 }
 
-.menu2 a{
-    
-   
+.circle a{
+    color:red;
 }
 
 .menu2  li a{
@@ -135,31 +189,220 @@ li img{
 list-style: none;
 }
 
-
-
-/* contenido */
-
-
-#categorias{
-    border: 1px solid green;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-self: center;
-    width: 60%;
-    height: ;
-    margin-top: ;
-    
+.normal:hover{
+    font-weight: bold;
+}
+.circle{
+    font-weight: 0;
+    font-family: 'Raleway', sans-serif;  
+}
+.circle:hover{
+    font-weight: bold;
+   
+}
+.menu2 li{
+color: #FFFFFF;;
 }
 
 
-/* publicidad */
+.inicio a{
+    text-decoration: none;
+    list-style: none;
+}
 
-.logo39A{
-  right:  0;
-  position: absolute ; 
-  width: 200px;
-    height: ;
+
+main{
     
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    flex-flow: row wrap;
+   border: 1px solid red;
+    justify-content: flex-start;
     
+
+}
+/* contenido */
+
+#main{
+    padding-top: 140px;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+main section{
+    
+ display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+ main #secundaria{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#noticias{
+    width: 84%;
+}
+ .principal1{
+    width: 510px;
+    display: flex;
+    margin
+    
+}
+ .principal1 figure img{
+    width: 400px;
+ }
+ .principal2{
+    width:410px;
+    
+}
+.noticias-g{
+    width: 300px;
+  
+}
+ .noticias-g {
+    width: 280px;
+   
+    
+}
+
+/* cohete */
+.cohete{
+ float: right;
+  margin-top: -140px;
+ 
+}
+
+
+.cohete form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D0C0C;; 
+    color: red;
+   
+}
+
+.cohete h2{
+    text-transform: uppercase;
+    color: #FB0000;
+    padding: 5px 0px;
+    text-decoration: underline;
+   
+}
+
+.cohete form input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    background-color: #0D0C0C;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+/* footer */
+footer {
+    color: var(--blanco);
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-end;
+    background-color: var(--negro);
+    width: 100%;
+}
+
+
+footer p {
+    text-align: center;
+    color: var(--rojo);
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    padding-top: 0;
+    
+}
+
+footer ul li{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: left;
+    margin-bottom: 10px;
+}
+
+
+footer a {
+    color: var(--blanco);
+    font-size: 15px;
+    text-decoration: none;
+    list-style: square;
+}
+
+footer a:hover {
+    font-weight: bold
+}
+
+footer h2 {
+    font-size: 18px ;
+}
+
+footer img {
+    width: 220px;
+    height: 130px;
+    margin-left: 50px;
+    padding-top: 60px;
+}
+
+.container-footer {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.contacto {
+    padding-right: 0px;
+}
+.social {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.redes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-right: 190px;
+}
+.redes i {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.facebook i {
+    color: rgb(58, 58, 196);
+}
+
+.facebook i:hover {
+    color: rgb(95, 95, 226);
+}
+
+.twitter i {
+    color: rgb(0, 217, 255);
+}
+
+.twitter i:hover {
+    color: rgb(54, 183, 206) ;
+}
+
+.instagram i {
+    color: rgb(214, 52, 174);
+}
+
+.instagram i:hover {
+    color: rgb(187, 43, 151);
 }
