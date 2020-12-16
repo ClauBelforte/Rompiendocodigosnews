@@ -11,7 +11,8 @@ body{
 
 #icon-menu img{
     width: 30px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
+    padding: 0px;
 }
 #nav>ul{
     list-style:none;
@@ -26,10 +27,12 @@ body{
     color: #ffffff;
     font-size: large;
     line-height: 75px;
+    text-decoration: none;
+    font-weight: bold;
 }
 #nav > ul > li > ul > li > img{
     width: 200px;
-    margin: 0;
+    margin: 40;
     padding: 0px;
 }
 #nav > ul > li > ul{
@@ -48,7 +51,7 @@ body{
     list-style: none;
     position:fixed;
     top:0px;
-    left:50px
+    left:40px
 }
 header #imgCabecera img{
     margin-left: 40px;
@@ -77,10 +80,31 @@ h1{
     font-family: 'Raleway', sans-serif;
     color: white;
     font-size: 25px;
+    font-weight:bold;
+    text-decoration: none;
 }
 #menufijo>ul{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
     background-color: #000000;    
+}
+.position > ul > li{
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.position > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.noticias > ul > li{
+    list-style: none;
+    width: 500px;
+    margin-top: 200px;
+    border: 1px solid rgb(187, 186, 186);
+    padding: 15px;
+    display: flex;
+    flex-flow: column wrap;
 }
