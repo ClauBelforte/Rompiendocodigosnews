@@ -14,11 +14,12 @@ body {
 
 /* Menú desplegable */
 
+
 #menudes {
     display: flex;
     justify-content: center;
     align-content: center;
-    list-style-type: none;
+    list-style-type: none !important;
 }
 
 #icon-menu img{
@@ -26,6 +27,7 @@ body {
     align-content: center;
     padding-left: 5px;
     padding-top: 30px;
+    list-style-type: none;
 }
 
 #menudes > ul > li > ul {

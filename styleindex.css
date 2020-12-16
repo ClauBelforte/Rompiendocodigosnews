@@ -14,16 +14,18 @@
     align-content: center;
 }
 
-#icon-menu img{
+#icon-menu img {
     width: 30px;
     align-content: center;
-    padding-left: 5px;
+    padding-left: 0;
     padding-top: 30px;
 }
+
 
 #menudes > ul > li > ul {
     border: 1px solid var(--blanco);
 }
+
 
 #menudes > ul > li > ul > li > a {
     color: var(--blanco);
@@ -42,13 +44,14 @@
 #menudes > ul > li > ul > li > img {
     width: 200px;
     padding: 0px;
-    margin: 0;
+    margin: 0px;
+    list-style-type: none;
 
 }
 #menudes > ul > li > ul {
     display: none;
     position: absolute;
-    list-style: none;
+    list-style-type: none;
     justify-content: center;
     align-content: center;
 
@@ -60,7 +63,7 @@
     width: 200px;
     height: 100%;
     background-color: var(--negro);
-    list-style: none;
+    list-style-type: none;
     position:fixed;
     left: 50px;
     justify-content: space-evenly;
