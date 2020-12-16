@@ -9,7 +9,7 @@
 /* Menú desplegable */
 
 #menudes {
-   display: flex;
+    display: flex;
     justify-content: center;
     align-content: center;
 }
@@ -116,8 +116,8 @@ i {
 }
 
 .clima {
-   margin: 15px;
-   padding-right: 50px;
+    margin: 15px;
+    padding-right: 50px;
 }
 
 header {
@@ -190,7 +190,6 @@ section .container {
 }
 
 #inicio .container {
-    
     background-color: var(--blanco);
     width: 800px;
     padding: 30px;
@@ -208,7 +207,6 @@ section .container {
 }
 
 .menu li a {
-   
     display: inline-block;
     color: var(--negro);
     text-decoration: none;
@@ -216,7 +214,6 @@ section .container {
     font-size: 50px;
     height: 20px;
     width: 20px;
-    
 }
 
 #mininoticias {
@@ -238,9 +235,9 @@ b {
 }
 
 .noticia {
-   width: 220px;
-   padding: 30px;
-   border: 1px solid rgb(167, 162, 162);
+    width: 220px;
+    padding: 30px;
+    border: 1px solid rgb(167, 162, 162);
 }
 
 .noticia img {
