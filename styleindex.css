@@ -10,8 +10,13 @@
 
 #menudes {
    display: flex;
-    justify-content: center;
-    align-content: center;
+   justify-content: start;
+   align-content: flex-start;
+
+}
+
+#menudes ul {
+    padding-left: 10px;
 }
 
 #icon-menu img{
@@ -41,8 +46,9 @@
 
 #menudes > ul > li > ul > li > img {
     width: 200px;
-    padding: 0px;
+    padding-left: 10px;
     margin: 0;
+    
 
 }
 #menudes > ul > li > ul {
@@ -64,9 +70,75 @@
     position:fixed;
     left: 50px;
     justify-content: space-evenly;
-    align-content: center;
+    align-content: flex-start;
     top: 0;
-    padding-right: 30px;
+    padding-right: 24px;
+    border:none;
+}
+
+/* Noticia completa */
+
+h1 {
+    font-size: 30px;
+}
+
+.img-noticia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 40px 50px 50px;
+    width: 900px;
+}
+
+.img-noticia img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 900px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.img-noticia img.gif-noticia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#publicidadgif {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 1200px;
+    margin: 0;
+    padding-left: 15px;
+    
+}
+
+.container-gif {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: inherit;
+}
+
+
+.minigif {
+    width: 200px;
+    object-fit: cover;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.minigif img {
+    height: 250px;
+    width: 320px;
+    object-fit:cover;
+    
 }
 
 /* Header */
@@ -93,8 +165,10 @@ i {
 }
 
 .logo-negro {
-    width: 250px;
+    width: 200px;
     margin: 0;
+    height: 100px;
+    padding-top: 15px;
 }
 
 .container-slider {
@@ -117,7 +191,7 @@ i {
 
 .clima {
    margin: 15px;
-   padding-right: 50px;
+   padding-right: 10px;
 }
 
 header {
@@ -146,17 +220,30 @@ nav {
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--blanco);
 }
 
 body li {
     list-style: none;
 }
 
+.caminito {
+    color: var(--negro);
+    font-size: 18px;
+    display: flex;
+    text-align: justify;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+
 .gif {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 80px 40px 50px 50px;
+    margin: 40px 40px 50px 50px;
     width: 900px;
 
 }
@@ -219,28 +306,47 @@ section .container {
     
 }
 
-#mininoticias {
-    padding-top: 8rem;
-    flex-flow: row wrap;
-    display: flex;
-    justify-content: space-between;
-}
 
 b {
     color: red;
+}
+
+#mininoticias {
+    margin-top: 60px;
 }
 
 .container-mini {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
 
+.container-gif-inicio {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 950px;
+    object-fit: cover;
+    margin: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    
+}
+
+.container-gif-inicio img {
+    width: 380px;
+    padding-top: 60px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 5px;
 }
 
 .noticia {
    width: 220px;
    padding: 30px;
-   border: 1px solid rgb(167, 162, 162);
+   border: 1px solid rgb(187, 186, 186);
 }
 
 .noticia img {
@@ -251,9 +357,53 @@ b {
 
 /* Publicidad  */
 
-.container .publidad {
+.container-publicidad {
     object-fit: cover;
     justify-content: flex-end;
+    background-color: var(--gris);
+    height: 100% ;
+}
+
+.dolar {
+    padding-top: 40px;
+}
+
+.form {
+    background-color: var(--blanco);
+    border-radius: 10px;
+    height: 180px;
+    width: 180px;
+    margin: 50px 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+form h3 {
+    color: var(--rojo);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    margin: 7px 10px;
+    width: 150px;
+    height: 20px;
+}
+
+.boton-rojo {
+    justify-content: center;
+    display: flex;
+}
+.boton {
+    background-color: var(--rojo);
+    color: var(--blanco);
+    border-radius: 7px;
+    width: 70px;
+    border: none;
+    height: 25px;
 }
 
 .publicidad {
@@ -269,6 +419,7 @@ b {
     justify-content: flex-end;
     align-items: flex-start;
     flex-flow: row wrap;
+    margin-top: 0;
 }
 
 
