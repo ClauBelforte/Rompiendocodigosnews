@@ -15,7 +15,6 @@ body{
 p{
     padding: 10px;
 }
-
 /* INICIO CABEZERA */
 header{
     width: 100%;
@@ -81,9 +80,9 @@ header{
     display: none;
     position: absolute;
 }
-#nav > ul > li:active > ul{
+#nav > ul > li:hover > ul{
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column; 
     align-items: center;
     width: 250px;
     height: auto;
@@ -125,17 +124,21 @@ header #imgCabecera img{
     color: #FFFFFF;
     font-size: 18px;
 }
-/* #menu nav ul li::after{
-    content: "|";
-    color: #FFFFFF;
-    margin-left: 50%;
-} */
+/* FIN DEL HEADER */
 
-
-
-
-
-/* SUGERENCIAS */
+/* INICIO MAIN */
+#main{
+    padding-top: 140px;
+    
+    display: flex;
+    flex-flow: row wrap;
+}
+main section{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 main .ubicacion{
     width: 100%;
 }
@@ -159,29 +162,6 @@ main .ubicacion ul{
 .ubicacion ul li a:hover{
     border-bottom: 1px solid #3A2F2F;
 }
-
-
-
-
-
-
-
-/* FIN DEL HEADER */
-
-/* INICIO MAIN */
-#main{
-    padding-top: 140px;
-    
-    display: flex;
-    flex-flow: row wrap;
-}
-main section{
-    
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
 main section article{
     padding: 10px;
     margin-bottom: 10px;
@@ -191,8 +171,7 @@ main section article{
 }
 main section .art-principal{
     width: 510px;
-    /* height: 300px;
-    border: 1px solid #3A2F2F; */
+    border: 1px solid rgb(187, 186, 186);
 }
 main section .art-principal figure img{
     width: 400px;
@@ -200,8 +179,7 @@ main section .art-principal figure img{
 }
 main section .art-principal2{
     width:410px;
-    /* height: 300px;
-    border: 1px solid #3A2F2F; */
+    border: 1px solid rgb(187, 186, 186); 
 }
 .art-principal2 figure img{
     width: 320px;
@@ -209,8 +187,7 @@ main section .art-principal2{
 }
 main section .art-gral{
     width: 300px;
-    /* height: 300px;
-    border: 1px solid #3A2F2F; */
+    border: 1px solid rgb(187, 186, 186);
 }
 main section .art-gral figure img{
     width: 280px;
@@ -227,16 +204,12 @@ section aside{
     align-self: center;
 }
 
-
-
-/* 
-sugerencias */
 #relleno{
     flex-direction: column;
     margin: 10px;
 }
 #relleno article{
-    width: 100%;
+    width: 97%;
     height: auto;
     border: none;
     text-align: justify;
@@ -248,37 +221,6 @@ sugerencias */
     align-items: center;
 }
 
-#contactos > ul > li > ul{
-    display: none;
-    padding-left: 0px;
-}
-#contactos > ul{
-    width: 50px;
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
-}
-#contactos img{
-    width: 30px;
-}
-
-#contactos > ul > li:hover > ul{
-    width: 50px;
-    background-color: #3A2F2F;
-    border-radius: 10px;
-    height: 150px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;    
-}
 aside{
     background-color: #3A2F2F;
 }
@@ -311,11 +253,8 @@ aside form input[type="submit"]{
     color: #FFFFFF;
     border-radius: 10px;
 }
-
-
-
-
 /*FIN MAIN
+
 INICIO FOOTER */
 span{
     margin: 10px;
