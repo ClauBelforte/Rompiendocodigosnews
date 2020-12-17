@@ -177,7 +177,8 @@ header #logoDiario img{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    margin-right: 200px;
+    margin-right: 70px;
+    margin-left: 30px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -190,7 +191,7 @@ header #logoDiario img{
 
 #noticias ul li{
     list-style: none;
-    width: 500px;
+    width: 450px;
     border: 1px;
     border:1px solid rgb(187, 186, 186);
     padding: 15px;
@@ -210,7 +211,8 @@ header #logoDiario img{
 
 #noticias2{
     margin-top: 20px;
-    margin-right: 200px;
+    margin-right: 70px;
+    margin-left: 30px;
 }
 
 #noticias2 ul{
@@ -249,7 +251,7 @@ header #logoDiario img{
     display: flex;
     flex-flow: column wrap;
     list-style: none;
-    margin-left: 5%;
+    margin-left: 45px;
 }
 
 #noticias3 ul li{
@@ -278,7 +280,55 @@ header #logoDiario img{
 
 /*Aside*/
 /*INICIO*/
+#todo {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
 
+#contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #3a2f2f;
+    align-items: center;
+}
+    #dolar {
+        padding-top: 15px;
+    }
+
+    .form {
+        background-color:rgb(44, 42, 42);
+        border-color:red solid 1px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        margin-top: 25px;
+    }
+        .form input {
+            margin: 1em;
+        }
+            .boton-rojo .boton {
+                background-color: red;
+                border-radius: 7px;
+                width: 70px;
+                border: none;
+                height: 25px;
+            }
+
+    #p39a {
+        display: flex;
+        flex-flow: column wrap;
+    }
+            #gifcohet {
+                object-fit: cover;
+                width: 216px;
+                height: 400px;
+                margin-top: 25px;
+            }
+    #contenido a{
+        margin-top: 25px;
+    }
 /*FIN*/
 
 /*Gifs*/
@@ -294,7 +344,7 @@ header #logoDiario img{
 #gifcentral img{
     width: 950px;
     height: 260px;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: 20px;
 }
 /*FIN*/
