@@ -183,3 +183,41 @@ i{
     color: red;
     font-size: 15px;
 }
+.footer{
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    font-weight: bold;
+}
+.footer img {
+    width: 220px;
+    height: 130px;
+    margin-left: 50px;
+    padding-top: 60px;
+}
+
+.footer>ul>li{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+.social-media>ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.fin{
+    color: red;
+}
