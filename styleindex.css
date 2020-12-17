@@ -26,10 +26,6 @@
     padding-top: 30px;
 }
 
-#menudes > ul > li > ul {
-    border: 1px solid var(--blanco);
-}
-
 #menudes > ul > li > ul > li > a {
     color: var(--blanco);
     text-decoration: none;
@@ -190,7 +186,7 @@ i {
 }
 
 .clima {
-   margin: 15px;
+   margin:0x;
    padding-right: 10px;
 }
 
@@ -328,11 +324,10 @@ b {
     flex-flow: row wrap;
     justify-content: space-between;
     width: 950px;
-    object-fit: cover;
     margin: 10px;
     padding-right: 10px;
     padding-top: 50px;
-    
+    object-fit: cover;    
 }
 
 .container-gif-inicio img {
@@ -487,6 +482,7 @@ footer img {
 .contacto {
     padding-right: 0px;
 }
+
 .social {
     width: 100%;
     margin: 0;
