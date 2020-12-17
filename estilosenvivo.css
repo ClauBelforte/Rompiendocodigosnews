@@ -11,7 +11,6 @@
     display: flex;
     justify-content: center;
     align-content: center;
-
 }
 
 #icon-menu img{
@@ -19,6 +18,10 @@
     align-content: center;
     padding-left: 5px;
     padding-top: 30px;
+}
+
+#menudes > ul > li > ul {
+    border: 1px solid var(--blanco);
 }
 
 #menudes > ul > li > ul > li > a {
@@ -37,8 +40,8 @@
 
 #menudes > ul > li > ul > li > img {
     width: 200px;
-    padding: 15px 0px;
-    margin-left: 40px;
+    padding: 0px;
+    margin: 0;
 
 }
 #menudes > ul > li > ul {
@@ -58,10 +61,10 @@
     background-color: var(--negro);
     list-style: none;
     position:fixed;
-    margin-left: 50px;
+    left: 50px;
     justify-content: space-evenly;
     align-content: center;
-    margin-top: 0px;
+    top: 0;
     padding-right: 30px;
 }
 
@@ -124,7 +127,6 @@ header {
     position: fixed;
     z-index: 4;
     width: 100%;
-    margin-top: 0;
 }
 
 nav {
@@ -142,100 +144,71 @@ nav {
 
 body {
     font-family: 'Raleway', sans-serif;
-    width: 100%;
     margin: 0;
 }
 
 body li {
     list-style: none;
 }
-#todo {
+
+#vids {
     display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-}
-
-#main {
-    width: 80%;
-    display: flex;
-    flex-flow: column;
-}
-
-    #vids {
-        display: flex;
-        padding-top: 1.4em;
-        justify-content: space-around;
-        width: 100%;
-        margin-bottom: 5em;
-    }
-        #vid {
-            margin: 1.5em;
-        }
-
-    #nomvid {
-        display: flex;
-        align-items: center;
-        padding-top: 10em;
-        justify-content: space-around;
-        width: 100%;
-        margin: 0;
-        text-align: center;
-    }
-        #tit {
-            margin-top: 1em;
-            font-size: 2em;
-        }
-
-
-#container-gif-inicio {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    width: 100%;
-}
-    #gif {
-        margin: 5px;
-        width: 350px;
-    }
-
-
-#contenido {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-top: 10em;
     align-items: center;
+    padding-top: 1.4em;
+    justify-content: space-around;
 }
-    #dolar {
-        padding-top: 0px;
+    #vid {
+        margin: 1.5em;
     }
 
-    .form {
-        background-color:rgb(44, 42, 42);
-        border-color:red solid 1px;
-        border-radius: 10px;
-        text-align: center;
-        color: white;
-    }
-        .form input {
-            margin: 1em;
-        }
-            .boton-rojo .boton {
-                background-color: red;
-                border-radius: 7px;
-                width: 70px;
-                border: none;
-                height: 25px;
-            }
 
-    #p39a {
-        display: flex;
+#nomvid {
+    display: flex;
+    align-items: center;
+    padding-top: 10em;
+    justify-content: space-around;
+}
+    #tit {
+        margin-top: 1em;
+        font-size: 2em;
     }
-            #gifcohet {
-                object-fit: cover;
-                height: 200px;
-                width: 100px;
-            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     color: var(--blanco);
