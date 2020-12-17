@@ -103,7 +103,7 @@ header a:hover {
 		background-color: var(--negro);
 		list-style: none;
 		position: fixed;
-		left: 50px;
+		left: 40px;
 		justify-content: space-evenly;
 		border: none;
 		padding-right: 24px;
