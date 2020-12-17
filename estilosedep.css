@@ -34,6 +34,27 @@ body{
 #menu nav ul li a:hover{
     font-weight: bold;
 }
+
+#menu nav ul li{
+    flex-flow: row wrap;
+    display: flex;
+}
+
+span.red {
+    background: red;
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.2em; 
+  }
+
+
 /*FIN*/
 
 /*LOGO Y SECCION*/
@@ -91,17 +112,20 @@ header #logoDiario img{
     width: 30px;
 }
 
+#nav ul li{
+    padding: 0px;
+}
+
 #nav > ul > li > ul > li > a{
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     /* margin: 50px 0px; */
 }
 #nav > ul > li > ul > li > img{
     width: 200px;
-    padding: 15px 0px;
 }
 #nav > ul > li > ul{
     display: none;
@@ -112,10 +136,8 @@ header #logoDiario img{
     flex-direction: column;
     align-items: center;
     width: 250px;
-    height: auto;
     background-color: #0D0C0C;
     list-style: none;
-    position:fixed;
     top:0px;
     left:40px;
 }
@@ -123,6 +145,7 @@ header #logoDiario img{
 #nav ul li ul li a:hover{
     font-weight: bold;
 }
+
 /* FIN MENU DESPLEGABLE */
 
 /*NOTICIAS*/
@@ -146,6 +169,7 @@ header #logoDiario img{
 }
 #ruta ul li{
     margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -154,6 +178,7 @@ header #logoDiario img{
     justify-content: center;
     flex-flow: row wrap;
     margin-right: 200px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #noticias ul {
@@ -171,7 +196,17 @@ header #logoDiario img{
     padding: 15px;
     display: flex;
     flex-flow: column wrap;
+    color: black;
 }
+#noticias2 a:link{
+  color: #fb0000;
+  text-decoration: none;
+}
+
+#noticias2 a:hover{
+    font-weight: bold;
+}
+
 
 #noticias2{
     margin-top: 20px;
@@ -193,7 +228,11 @@ header #logoDiario img{
     border:1px solid rgb(187, 186, 186);
     margin-left: 1px;
     margin-right: 1px;
-
+    color: red;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 #noticias2 ul li img{
@@ -208,22 +247,22 @@ header #logoDiario img{
 #noticias3 ul{
     list-style: none;
     display: flex;
-    justify-content: center;
     flex-flow: column wrap;
     list-style: none;
+    margin-left: 5%;
 }
 
 #noticias3 ul li{
     padding: 15px;
     list-style: none;
-    width: 900px;
+    width: 970px;
     padding: 20px;
     border:1px solid rgb(187, 186, 186);
     margin-left: 1px;
     margin-right: 1px;
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 #noticias3 ul li img{
@@ -232,6 +271,7 @@ header #logoDiario img{
 }
 #noticias3 ul li h2{
     align-self: center;
+    margin-left: 20px;
 }
 
 /*FIN*/
@@ -239,6 +279,24 @@ header #logoDiario img{
 /*Aside*/
 /*INICIO*/
 
+/*FIN*/
+
+/*Gifs*/
+/*INICIO*/
+
+#giffinal img{
+    padding: 20px;
+    margin-left: 90px;
+    height: 300px;
+    width: 400px;
+}
+
+#gifcentral img{
+    width: 950px;
+    height: 260px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
 /*FIN*/
 
 /*footer*/
