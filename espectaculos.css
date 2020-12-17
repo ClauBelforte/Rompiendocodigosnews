@@ -215,7 +215,7 @@ section aside{
     width: 200px;
     padding: 5%;
     background-color: #3A2F2F;
-    height: 1000px;
+    height: 1210px;
     
 }
 #aside aside img{
@@ -256,7 +256,7 @@ aside form{
     align-items: center;
 }
 aside form input{
-    padding: 5px;
+    padding: 5px 0px;
     margin: 10px 0px;    
 }
 aside h2{
@@ -273,30 +273,107 @@ aside form input[type="submit"]{
     color: #FFFFFF;
     border-radius: 10px;
 }
+aside #cohete img{
+    padding-top: 15px;
+}
 /*FIN MAIN
 
 INICIO FOOTER */
-footer{
-    margin-top: 10px;
-    background-color: #3A2F2F;
-    color: #ffffff;
 
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-}
-footer section{
-    width: 100%;
+#footer{
+    height: 280px;
+    margin-top: 30px;
+    background-color: #1b1919;
 
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
-footer figure img{
-    width: 200px;
+
+#footer img{
+    margin-left: 50px;
+    width: 220px;
+    height: 120px;
+    margin-top: 30px;
 }
-span{
-    margin: 20px;
-    color: #FFFFFF;
+
+#footer ul{
+    color: white;
+    list-style: none;
 }
+
+#footer #secciones{
+    align-self: flex-start;
+    margin-left: 50px;
+}
+
+#footer #secciones li{
+    padding: 10px;
+}
+#footer #secciones a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#footer #secciones a:hover{
+    font-weight: bold;
+}
+
+#footer #contfoot h2{
+    margin-left: 100px;
+}
+
+#footer #contfoot li{
+    padding: 5px;
+}
+
+#footer #contfoot #contacto3{
+    margin-top: 10px;
+}
+
+
+.redes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-right: 190px;
+}
+.redes i {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.facebook i {
+    color: rgb(58, 58, 196);
+}
+
+.facebook i:hover {
+    color: rgb(95, 95, 226);
+}
+
+.twitter i {
+    color: rgb(0, 217, 255);
+}
+
+.twitter i:hover {
+    color: rgb(54, 183, 206) ;
+}
+
+.instagram i {
+    color: rgb(214, 52, 174);
+}
+
+.instagram i:hover {
+    color: rgb(187, 43, 151);
+}
+
+#derechos{
+    background-color: #1b1919;
+}
+#derechos p{
+    color: red;
+    text-align: center;
+}
+
+/*FIN*/
