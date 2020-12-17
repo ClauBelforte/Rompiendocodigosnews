@@ -183,11 +183,24 @@ i {
     justify-content: space-around;
     align-items: center;
 }
-
+.gifp39 {
+   margin-top: 5px;
+   margin-bottom: 0;
+   height: 111px;
+}
+.gifp39 video {
+    height: 110px;
+    object-fit: cover;
+    width: 670px;
+    padding: 0;
+}
 .clima {
    margin:0x;
    padding-right: 10px;
+   padding-top: 15px;
+
 }
+
 
 header {
     background-color: var(--blanco);
