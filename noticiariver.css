@@ -174,7 +174,7 @@ header #logoDiario img{
     flex-flow: column wrap;
     justify-content: flex-start;
     align-content: center;
-    margin-right: 270px;
+    margin-right: 250px;
     margin-left: 90px;
     text-align: justify;
 }
@@ -203,7 +203,7 @@ header #logoDiario img{
     flex-flow: column wrap;
     justify-content: flex-start;
     align-content: center;
-    margin-right: 270px;
+    margin-right: 250px;
     margin-left: 90px;
     text-align: justify;
 }
@@ -222,7 +222,59 @@ header #logoDiario img{
 
 /*Aside*/
 /*INICIO*/
+#todo {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
 
+#contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #3a2f2f;
+    align-items: center;
+}
+#dolar {
+    margin-top: 0px;
+    width: 210;
+}
+
+.form {
+    background-color:rgb(44, 42, 42);
+    border-color:red solid 1px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+.form input {
+    margin: 1em;
+}
+.boton-rojo .boton {
+    background-color: red;
+    border-radius: 7px;
+    width: 70px;
+    border: none;
+    height: 25px;
+}
+#p39a {
+    display: flex;
+    flex-flow: column wrap
+}
+#gifcohet {
+    object-fit: cover;
+    width: 216px;
+    height: 400px;
+    margin-top: 25px;
+}
+#contenido a{
+    margin-top: 25px;
+}
+
+#contenido #meli{
+    width: 216px;
+}
 /*FIN*/
 
 /*Gifs*/
@@ -230,15 +282,15 @@ header #logoDiario img{
 
 #giffinal img{
     padding: 20px;
-    margin-left: 90px;
+    margin-left: 70px;
     height: 300px;
-    width: 400px;
+    width: 340px;
 }
 
 #gifcentral img{
-    width: 950px;
+    width: 790px;
     height: 260px;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 20px;
 }
 /*FIN*/
