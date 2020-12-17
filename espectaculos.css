@@ -211,20 +211,7 @@ main section .art-gral{
 main section .art-gral figure img{
     width: 280px;
 }
-section aside{
-    width: 200px;
-    padding: 5%;
-    background-color: #3A2F2F;
-    height: 1210px;
-    
-}
-#aside aside img{
-    width: 200px;
-    height: 480px;
-    
 
-    align-self: center;
-}
 
 #relleno{
     flex-direction: column;
@@ -243,7 +230,18 @@ section aside{
     align-items: center;
 }
 
-
+#aside aside{
+    width: 200px;
+    padding: 5%;
+    background-color: #3A2F2F;
+    height: 100%;   
+}
+#aside aside img{
+    width: 200px;
+    height: auto;
+    align-self: center;
+    margin: 15px 0px;
+}
 aside form{
     margin-top: 30px;
     background-color: #ffffff;
@@ -275,16 +273,20 @@ aside form input[type="submit"]{
 }
 aside #cohete img{
     padding-top: 15px;
+    width: 200px;
+    height: 500px;
 }
+
 /*FIN MAIN
 
 INICIO FOOTER */
 
 #footer{
-    height: 280px;
+    height: 220px;
     margin-top: 30px;
     background-color: #1b1919;
-
+    padding-top: 15px;
+    
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -295,7 +297,7 @@ INICIO FOOTER */
     margin-left: 50px;
     width: 220px;
     height: 120px;
-    margin-top: 30px;
+
 }
 
 #footer ul{
@@ -309,7 +311,10 @@ INICIO FOOTER */
 }
 
 #footer #secciones li{
-    padding: 10px;
+    padding: 5px;
+}
+#footer #secciones:first-child{
+    margin-bottom: 50px;
 }
 #footer #secciones a:link {
     text-decoration: none;
