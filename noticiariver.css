@@ -1,0 +1,399 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   display: flex;    
+   flex-flow: column wrap;
+   justify-content: space-around; 
+   font-family: 'Raleway', sans-serif;
+}
+
+
+/*Menu horizontal fijo*/
+/*INICIO*/
+
+#menu nav ul{
+    list-style: none;
+    display: flex;
+    background-color: #3a2f2f;
+    flex-direction: row wrap;
+    justify-content: space-around;
+}
+
+#menu nav ul li{
+    padding: 15px;
+    list-style: none;
+}
+#menu nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#menu nav ul li a:hover{
+    font-weight: bold;
+}
+
+#menu nav ul li{
+    flex-flow: row wrap;
+    display: flex;
+}
+
+span.red {
+    background: red;
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.2em; 
+  }
+
+
+/*FIN*/
+
+/*LOGO Y SECCION*/
+/*INICIO*/
+
+header{
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;    
+}
+#encabezado{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+}
+#cabecera{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+#cabecera div{
+    margin-top: 50px;
+    margin: 10px;
+    font-size: xx-large;
+    line-height: 75px;
+}
+
+#cabecera .clima{
+    margin-left: 275px;
+}
+
+#cabecera h1{
+    display: flex;
+    align-self: center;
+    color:#fb0000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin-left: 275px;
+}
+
+header #logoDiario img{
+    margin-left: 40px;
+    width: 200px;
+}
+
+/*FIN*/
+
+/* MENU DEPLEGABLE */
+#icon-menu img{
+    width: 30px;
+}
+
+#nav > ul > li > ul > li > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    /* margin: 50px 0px; */
+}
+#nav > ul > li > ul > li > img{
+    width: 200px;
+    padding: 15px 0px;
+}
+#nav > ul > li > ul{
+    display: none;
+    position: absolute;
+}
+#nav > ul > li:hover > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    background-color: #0D0C0C;
+    list-style: none;
+    position:fixed;
+    top:0px;
+    left:40px;
+}
+
+#nav ul li ul li a:hover{
+    font-weight: bold;
+}
+/* FIN MENU DESPLEGABLE */
+
+/*NOTICIA*/
+
+/*INICIO*/
+
+#ruta{
+    color: black;
+    margin-top: 180px;
+    margin-left: 50px;
+    display: flex;
+    height: 50px;
+    width: 1000px;
+}
+
+#ruta ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+#ruta ul li{
+    margin-left: 10px;
+}
+
+#primero{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin-right: 250px;
+    margin-left: 90px;
+    text-align: justify;
+}
+#primero h1{
+    font-size: 2em;
+    color: red;
+}
+#primero h2{
+    align-self: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+#primero img{
+    margin-top: 25px;
+    width: 790px;
+    height: all;
+}
+#primero p{
+    margin-top: 25px;
+    font-size: 19px;
+}
+
+#segundo{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin-right: 250px;
+    margin-left: 90px;
+    text-align: justify;
+}
+
+#segundo iframe{
+    margin-top: 25px;
+    align-self: center;
+}
+
+#segundo p{
+    margin-top: 25px;
+    font-size: 19px;
+}
+
+/*FIN*/
+
+/*Aside*/
+/*INICIO*/
+#todo {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #3a2f2f;
+    align-items: center;
+}
+#dolar {
+    margin-top: 0px;
+    width: 210;
+}
+
+.form {
+    background-color:rgb(44, 42, 42);
+    border-color:red solid 1px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+.form input {
+    margin: 1em;
+}
+.boton-rojo .boton {
+    background-color: red;
+    border-radius: 7px;
+    width: 70px;
+    border: none;
+    height: 25px;
+}
+#p39a {
+    display: flex;
+    flex-flow: column wrap
+}
+#gifcohet {
+    object-fit: cover;
+    width: 216px;
+    height: 400px;
+    margin-top: 25px;
+}
+#contenido a{
+    margin-top: 25px;
+}
+
+#contenido #meli{
+    width: 216px;
+}
+/*FIN*/
+
+/*Gifs*/
+/*INICIO*/
+
+#giffinal img{
+    padding: 20px;
+    margin-left: 70px;
+    height: 300px;
+    width: 340px;
+}
+
+#gifcentral img{
+    width: 790px;
+    height: 260px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+/*FIN*/
+
+/*footer*/
+/*INICIO*/
+
+#footer{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #1b1919;
+    justify-content: space-between;
+    align-content:center;
+    height: 280px;
+    margin-top: 30px;
+}
+
+#footer img{
+    margin-left: 50px;
+    width: 220px;
+    height: 120px;
+    margin-top: 30px;
+}
+
+#footer ul{
+    color: white;
+    list-style: none;
+}
+
+#footer #secciones{
+    align-self: flex-start;
+    margin-left: 50px;
+}
+
+#footer #secciones li{
+    padding: 5px;
+}
+#footer #secciones a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#footer #secciones a:hover{
+    font-weight: bold;
+}
+
+#footer #contfoot h2{
+    margin-left: 100px;
+}
+
+#footer #contfoot li{
+    padding: 5px;
+}
+
+#footer #contfoot #contacto3{
+    margin-top: 10px;
+}
+
+
+.redes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-right: 190px;
+}
+.redes i {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.facebook i {
+    color: rgb(58, 58, 196);
+}
+
+.facebook i:hover {
+    color: rgb(95, 95, 226);
+}
+
+.twitter i {
+    color: rgb(0, 217, 255);
+}
+
+.twitter i:hover {
+    color: rgb(54, 183, 206) ;
+}
+
+.instagram i {
+    color: rgb(214, 52, 174);
+}
+
+.instagram i:hover {
+    color: rgb(187, 43, 151);
+}
+
+#derechos{
+    background-color: #1b1919;
+}
+#derechos p{
+    color: red;
+    text-align: center;
+}
+
+/*FIN*/
+
+
+
