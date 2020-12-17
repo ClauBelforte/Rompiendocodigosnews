@@ -1,165 +1,506 @@
 *{
-margin: 0 ;
-padding: 0;
-
-}
-
-
-body{
-    font-family: 'Raleway', sans-serif;
-   
-}
-
-header{
-   display: flex;
-    width: 100%;
-    flex-flow: row wrap;
-    position: ;
-    justify-content: flex-start;
-    height: 100%;
-
-
-}
-
-
-
-/* menu desplegable */
-
-
-li img{
-    width: 200px;
-    height: 200px;
-}
-
-.icon-menu{
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    margin: 0;
-    justify-content: 
+    margin: 0 ;
+    padding: 0;
     
-}
-
-.menu1{
+    }
     
-    margin-left: 10px;  
-}
-
-.menu1 .contenido-men {
+    :root {
+        --gris: #3A2F2F;
+        --negro: #0D0C0C;
+        --rojo: #FB0000;
+        --blanco:#FFFFFF;
+    }
     
-   display: none;
-    background-color: #0D0C0C;
-    margin-left: 50px;
-    margin-top: -50%;
+    
+    body{
+        font-family: 'Raleway', sans-serif;
+       
+    }
+    
+    header{
+       display: flex;
+        width: 100%;
+        flex-flow: row wrap;
+        position: ;
+        justify-content: flex-start;
+        height: 100%;
+    
+    
+    }
+    
+    
+    /* circulo rojo */
+    i{
+    color: red
+    }
+    
+    li i{
+        font-family: 'Raleway', sans-serif;  
+    }
+    
+    .menu2  i:hover{
+        font-weight: bold;
+    }
+    
+    
+    /* clima */
+    
+    
+    .clima{
+        margin: 15px;
+        padding-right: 50px;
+        margin-left: 750px;
+    }
+    
+    
+    /* menu desplegable */
+    
+    
+    
+    
+    
+    li img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    #icon-menu{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        margin: 0;
+        justify-content: 
+        
+    }
+    
+    
+    #apricion{
+       
+        flex-flow: column wrap;
+        z-index: 1;
+       
+    }
+    
+    .aparicion2{
+        
+    }
+    
+    .contenido-men{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly ;
+        align-items: center;
+       visibility: hidden;
+        opacity: 0;
+        background-color: #0D0C0C;
+        width: 250px;
+        height: 600px;
+        position: fixed;
+        list-style: none;
+        margin-top: -50px;
+        margin-left: 40px;
+        
+        
+    }
+    
+    .contenido-men ul li{
+       
+        display: flex;
+     
+        position: fixed;
+    
+    }
+    
+    .contenido-men ul li a{
+      
+    }
+    .contenido-men li a{
+        color:#FFFFFF;
+        text-decoration: none;
+        
+        
+        
+    }
+    
+     .contenido-men ul li{
+        font-weight: 0;
+    }
+    
+    #nav:hover .contenido-men{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    
+    
+    
+    /* cabecera */
+      
+    .logo2 {
+        margin-left: 0px;
+        width: 250px;
+        margin-top: 0;
+    }
+      
+    
+    
+    .nombre{
+        display: flex;
+        flex-flow: row wrap;
+         align-items: center; 
+         margin-left: 200px;
+         color:  #FB0000;
+         
+    }
+    
+    .nombre h1{
+       
+    }
+    
+    
+    
+    
+    /* menu principal */
+    
+    .menu2{
+        width: 100%;
+        max-width: 1920px;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+        margin: 0;
+         background-color: #3A2F2F; 
+        height: 40px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .circle a{
+        color:red;
+    }
+    
+    .menu2  li a{
+        text-decoration: none;
+        color: #FFFFFF;
+        
+    }
+    
+    .menu2 li{
     list-style: none;
-    width: 200px;
-    height: 1080px;
+    }
     
-   
-}
-
-.contenido-men{
-    display: flex;
-    flex-flow: column wrap;
- justify-content: space-evenly;
-    flex-flow: column wrap;
-    align-items: center;
-    
-}
-
-.menu1 .contenido-men a{
-    background-color: #0D0C0C;
-    color: #FFFFFF;
-    
-}
-
-
-.menu1 .contenido-men li a{
-    text-decoration: none;
-   
-}
-
-.menu1 .contenido-men ul li{
-   
-    color: #FFFFFF;
-}
-
-
-/* cabecera */
-  
-.logo2 {
-    margin-left: 0px;
-    width: 250px;
-    margin-top: 0;
-}
-  
-
-
-.nombre{
-    display: flex;
-    flex-flow: row wrap;
-     align-items: center; 
-     justify-content: center; 
-     color:  #FB0000;
-}
-
-
-
-
-/* menu principal */
-
-.menu2{
-    width: 100%;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    display: flex;
-     background-color: #3A2F2F; 
-    height: 40px;
-   z-index: 10;
-   position: ;
-}
-
-.menu2 a{
-    
-   
-}
-
-.menu2  li a{
-    text-decoration: none;
-    color: #FFFFFF;
-    
-}
-
-.menu2 li{
-list-style: none;
-}
-
-
-
-/* contenido */
-
-
-#categorias{
-    border: 1px solid green;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-self: center;
-    width: 60%;
-    height: ;
-    margin-top: ;
-    
-}
-
-
-/* publicidad */
-
-.logo39A{
-  right:  0;
-  position: absolute ; 
-  width: 200px;
-    height: ;
+    .normal:hover{
+        font-weight: bold;
+    }
+    .circle{
+        font-weight: 0;
+        font-family: 'Raleway', sans-serif;  
+    }
+    .circle:hover{
+        font-weight: bold;
+       
+    }
+    .menu2 li{
+    color: #FFFFFF;;
+    }
     
     
-}
+    .inicio a{
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    
+    main{
+        
+        display: flex;
+        width: 1920px;
+        
+        flex-flow: row-reverse wrap;
+       border: 10px solid red;
+        justify-content: flex-end;
+        align-items: flex-start;
+        
+    
+    }
+    
+    
+    /* home y economia */
+    .inicio a{
+     text-decoration: none;
+    color: #0D0C0C;
+     margin-left: 20px;
+    }
+    
+    /* contenedor de cohete y de informacion */
+    #main{
+        padding-top: 140px;
+         display: flex;        /*no*/ 
+        flex-flow: row wrap;
+        
+    }
+    
+     
+    
+    
+    /* contenido */
+    
+    #contenido{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: space-around;
+        border: 1px solid green;
+        width: 88%;
+        max-width: 1850px;
+        margin-left: -35%;
+        margin-top: -100px;
+        height: 
+    }
+    
+    .noticia-p{
+        border: 1px solid red;
+     display: flex;
+     flex-flow: wrap row;
+     align-items: space-around;
+     width: 100%;
+    }
+    
+    .noticia-p h3{
+        color:#FB0000; 
+        font-size: 30px;
+    }
+    
+    .noticia-p img{
+        margin-top: 15px;
+    }
+    
+    .noticia-p p{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    
+    .-noticia1{
+        margin-top: 1000px;
+        display: flex;
+        flex-flow: column;
+    }
+    
+       
+    /* cohete */
+    
+    
+    .contenido-pub{
+        object-fit: cover;
+        justify-content: flex-end;
+        background-color: #0D0C0C;
+        height: 2400px ;
+        margin-top: -140px;
+    }
+    
+    .cotizacion{
+        padding-top: 40px;
+    }
+    
+    .formulario {
+        background-color: var(--blanco);
+       
+        height: 180px;
+        width: 180px;
+        margin: 50px 10px;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+    
+    .formulario h3 {
+        color: #FB0000;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    input {
+        margin: 7px 10px;
+        width: 150px;
+        height: 20px;
+    }
+    
+    .boton-rojo {
+        justify-content: center;
+        display: flex;
+    }
+    .boton {
+        background-color: #0D0C0C;
+       color:  #FB0000;
+        border-radius: 7px;
+        width: 70px;
+        border: none;
+        height: 25px;
+    }
+    
+    .publicidad {
+        width: 200px;
+        height: 780px;
+        right: 0px;
+        object-fit: cover;
+    }
+    
+    
+    .cohete2{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-flow: row wrap;
+        margin-top: 0;
+    }
+    
+    
+    /* footer */
+    footer {
+        color: var(--blanco);
+        margin: 0;
+        padding: 0;
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: flex-end;
+        background-color: var(--negro);
+        width: 100%;
+    }
+    
+    
+    footer p {
+        text-align: center;
+        color: var(--rojo);
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        padding-top: 0;
+        
+    }
+    
+    footer ul li{
+        display: flex;
+        flex-flow: column wrap;
+        align-content: left;
+        margin-bottom: 10px;
+    
+    }
+    
+    
+    footer a {
+        color: var(--blanco);
+        font-size: 15px;
+        text-decoration: none;
+        list-style: square;
+    }
+    
+    footer a:hover {
+        font-weight: bold
+    }
+    
+    footer h2 {
+        font-size: 18px ;
+    }
+    
+    footer img {
+        width: 220px;
+        height: 130px;
+        margin-left: 50px;
+        padding-top: 60px;
+    }
+    
+    .pie {
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: center;
+    }
+    
+    .contactos {
+        padding-right: 0px;
+    }
+    .icon-socia {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .redes {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        margin-right: 190px;
+    }
+    .redes i {
+        font-size: 50px;
+        padding: 10px;
+    }
+    
+    .facebook i {
+        color: rgb(58, 58, 196);
+    }
+    
+    .facebook i:hover {
+        color: rgb(95, 95, 226);
+    }
+    
+    .twitter i {
+        color: rgb(0, 217, 255);
+    }
+    
+    .twitter:hover {
+        color: rgb(54, 183, 206) ;
+    }
+    
+    .instagram i {
+        color: rgb(214, 52, 174);
+    }
+    
+    .instagram:hover {
+        color: rgb(187, 43, 151);
+    }
+    
+    
+    <article class="noticia-s">
+                
+    <article class="noticia1">
+    <img src=imagenes/imgeco/noticia1.jpg alt="" width="30%">
+    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis sequi possimus placeat, cupiditate neque quo magnam dolorum atque nihil aliquam enim tempora nobis vitae rerum suscipit obcaecati quibusdam eligendi iste.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsum pariatur ea error debitis commodi excepturi incidunt doloribus nisi inventore eum iusto esse, ut quam quos sint libero quibusdam ratione!</p>
+    </article>
+    <article class="noticia1">
+    <img src=imagenes/imgeco/noticia2.jpg alt="" width="30%">
+    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quibusdam, distinctio dicta ducimus error maiores, suscipit magnam veniam labore quas deserunt. Explicabo tempore temporibus accusantium odit blanditiis aliquid, dicta sequi.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nam unde quas at error similique necessitatibus quod debitis doloribus, maxime veniam consequatur quae alias nulla rerum eos, ex voluptates praesentium!</p>
+    </article>
+    <article>
+    
+    <img src=imagenes/imgeco/noticia3.jpg alt="" width="30%">
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae error exercitationem reprehenderit quis vitae necessitatibus. Quis, omnis. Sunt commodi mollitia, nobis nostrum culpa ipsa excepturi in natus libero voluptatibus quas?</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam iure quod voluptates voluptatem nemo magni? Obcaecati at dolor suscipit minima, doloremque dolorem inventore possimus enim recusandae, quas sunt? Nulla, molestiae?</p>
+    </article>
+    
+    <article class="noticia1">
+    <img src=imagenes/imgeco/noticia5.jpg alt="" width="30%">
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. A provident natus dolore unde, alias aut at recusandae voluptates nam exercitationem ab. Earum ut eligendi itaque. Fugiat necessitatibus itaque corrupti consectetur?</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil exercitationem praesentium molestiae laborum deleniti maiores dolorum nostrum omnis pariatur quam magni illum officia, ipsum, cumque consectetur. Tempore, dignissimos similique.</p>
+    </article>
+    <article class="noticia1">
+    <img src=imagenes/imgeco/noticia6.jpg alt="" width="30%">
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda illo tempore omnis, vitae rem dolor beatae aut sed modi architecto reprehenderit sapiente eveniet nulla, ex a ut distinctio similique soluta.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto autem commodi ea quos facere distinctio neque esse eveniet, eos nobis labore praesentium, adipisci aut quaerat reprehenderit. Provident laborum culpa vel?</p>
+    </article>
+    <article class="noticia1">
+    <img src=imagenes/imgeco/noticia7.jpg alt="" width="30%">
+    <h2></h2>
+    <p></p>
+    </article>
+    <article class="noticia1">
+    <img src=imagenes/imgeco/noticia8.jpg alt="" width="30%">
+    <h2></h2>
+    <p></p>
+    
+    </article>
