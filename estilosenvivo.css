@@ -127,6 +127,24 @@ header {
     margin-top: 0;
 }
 
+.gifp39 {
+    margin-top: 3px;
+    margin-bottom: 2px;
+    height: 111px;
+    padding-left: 17px;
+}
+.gifp39 img {
+    height: 110px;
+    object-fit: cover;
+    width: 670px;
+    padding: 0;
+}
+.clima {
+    margin:0;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
 nav {
     background-color: var(--gris);
     height: 40px ;
@@ -160,32 +178,59 @@ body li {
     width: 80%;
     display: flex;
     flex-flow: column;
+} 
+
+
+#nomaud {
+    display: flex;
+    align-items: center;
+    padding-top: 12em;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    text-align: center;
 }
-
-    #vids {
-        display: flex;
-        padding-top: 1.4em;
-        justify-content: space-around;
-        width: 100%;
-        margin-bottom: 5em;
+    #titaud {
+        margin-top: 0.2em;
+        font-size: 2em;
     }
-        #vid {
-            margin: 1.5em;
+
+        #audios {
+            display: flex;
+            align-items: center;
+            padding-top: 1em;
+            justify-content: space-around;
+            margin: 0;
+            text-align: center;
+            flex-flow: row;
         }
 
-    #nomvid {
-        display: flex;
-        align-items: center;
-        padding-top: 10em;
-        justify-content: space-around;
-        width: 100%;
-        margin: 0;
-        text-align: center;
+
+#nomvid {
+    display: flex;
+    align-items: center;
+    padding-top: 5em;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+    #tit {
+        margin-top: 0.2em;
+        font-size: 2em;
     }
-        #tit {
-            margin-top: 1em;
-            font-size: 2em;
+
+        #vids {
+            display: flex;
+            padding-top: 0;
+            justify-content: space-around;
+            width: 100%;
+            margin-bottom: 5em;
         }
+            #vid {
+                margin: 1.5em;
+            }
+
 
 
 #container-gif-inicio {
@@ -204,7 +249,7 @@ body li {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-top: 10em;
+    padding-top: 11em;
     align-items: center;
 }
     #dolar {
@@ -232,11 +277,11 @@ body li {
     #p39a {
         display: flex;
     }
-            #gifcohet {
-                object-fit: cover;
-                height: 200px;
-                width: 100px;
-            }
+        #gifcohet {
+            object-fit: cover;
+            height: 500px;
+            width: 200px;
+        }
 
 footer {
     color: var(--blanco);
