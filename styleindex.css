@@ -22,12 +22,7 @@
 #icon-menu img{
     width: 30px;
     align-content: center;
-    padding-left: 5px;
     padding-top: 30px;
-}
-
-#menudes > ul > li > ul {
-    border: 1px solid var(--blanco);
 }
 
 #menudes > ul > li > ul > li > a {
@@ -68,7 +63,7 @@
     background-color: var(--negro);
     list-style: none;
     position:fixed;
-    left: 50px;
+    left: 40px;
     justify-content: space-evenly;
     align-content: flex-start;
     top: 0;
@@ -188,11 +183,24 @@ i {
     justify-content: space-around;
     align-items: center;
 }
-
-.clima {
-   margin: 15px;
-   padding-right: 10px;
+.gifp39 {
+   margin-top: 5px;
+   margin-bottom: 0;
+   height: 111px;
 }
+.gifp39 img {
+    height: 110px;
+    object-fit: cover;
+    width: 670px;
+    padding: 0;
+}
+.clima {
+   margin:0x;
+   padding-right: 10px;
+   padding-top: 15px;
+
+}
+
 
 header {
     background-color: var(--blanco);
@@ -315,6 +323,11 @@ b {
     margin-top: 60px;
 }
 
+.mininoticia {
+    text-decoration: none;
+    color: var(--gris);
+}
+
 .container-mini {
     display: flex;
     flex-flow: row wrap;
@@ -328,11 +341,10 @@ b {
     flex-flow: row wrap;
     justify-content: space-between;
     width: 950px;
-    object-fit: cover;
-    margin: 10px;
+    margin:0 10px;
     padding-right: 10px;
-    padding-top: 50px;
-    
+    padding-top: 0px;
+    object-fit: cover;    
 }
 
 .container-gif-inicio img {
@@ -347,6 +359,7 @@ b {
    width: 220px;
    padding: 30px;
    border: 1px solid rgb(187, 186, 186);
+   height: 350px;
 }
 
 .noticia img {
@@ -380,7 +393,7 @@ b {
     justify-content: space-evenly;
 }
 
-form h3 {
+.form form h4 {
     color: var(--rojo);
     text-align: center;
     padding: 0;
@@ -487,6 +500,7 @@ footer img {
 .contacto {
     padding-right: 0px;
 }
+
 .social {
     width: 100%;
     margin: 0;

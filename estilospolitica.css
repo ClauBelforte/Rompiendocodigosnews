@@ -2,13 +2,10 @@ body{
     background-color: #ffffff;
     width: 100%;
     font-family: 'Raleway', sans-serif;
+    padding: 0%;
+    margin: 0;
 }
 
-#cabecera{
-    background-color: #ffffff;
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-}
 nav{
     background-color: #3a2f2f;
     height: 40px;
@@ -16,6 +13,7 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     display: flex;
+    margin: 0;
 }
 header a{
     text-decoration: none;
@@ -26,38 +24,42 @@ header a:hover{
     font-weight: bold;
 }
 
-.menudespl{
+#menudespl{
     display: flex;
     justify-content: start;
     align-content: flex-start;
+    list-style: none;
 }
-.menudespl ul{
+#menudespl ul{
     padding-left: 10px;
+    list-style: none;
 }
-.menudespl > ul > li > ul{
+#menudespl > ul > li > ul{
     display: none;
     position: absolute;
     list-style: none;
     justify-content: center;
     align-content: center;
 }
-.menudespl > ul > li > ul > li > a{
+#menudespl > ul > li > ul > li > a{
     color: white;
     text-decoration: none;
     font-size: 20px;
     text-align: center;
     padding: 0;
+    list-style: none;
     margin: 0;
 }
-.menudespl > ul > li > ul > li > a :hover{
+#menudespl > ul > li > ul > li > a :hover{
     font-weight: bold;
 }
-.menudespl > ul > li > ul > li img{
+#menudespl > ul > li > ul > li > img {
     width: 200px;
     padding-left: 10px;
     margin: 0;
 }
-.menudespl > ul > li:hover > ul{
+
+#menudespl > ul > li:hover > ul{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +68,7 @@ header a:hover{
     background-color: #0d0c0c;
     list-style: none;
     position: fixed;
-    left: 50px;
+    left: 40px;
     justify-content: space-evenly;
     align-content: flex-start;
     top: 0;
@@ -81,7 +83,9 @@ header a:hover{
     align-content: center;
     padding-left: 5px;
     padding-top: 30px;
+    list-style: none;
 }
+
 header {
     background-color: white;
     flex-flow: row wrap;
@@ -90,6 +94,7 @@ header {
     position: fixed;
     z-index: 4;
     width: 100%;
+    margin: 0;
 }
 .logoinicio{
     width: 200px;
@@ -105,30 +110,18 @@ h1{
     align-self: center;
 }
 
+.logoymenu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
 #cabecera{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
-}
-#menufijo>ul>li{
-    list-style: none;
-    color: white;
-    font-size: 20px;
-}
-#menufijo>ul>li>a{
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    font-size: 25px;
-    font-weight:bold;
-    text-decoration: none;
-}
-#menufijo>ul{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    background-color: #000000;    
 }
 .position {
     margin: 0px;
@@ -147,10 +140,11 @@ h1{
     padding-left: 15px;
 }
 #noticias{
-    display: flex;
+    padding-top: 8rem;
     flex-flow: row wrap;
+    display: flex;
     justify-content: space-between;
-    margin-top: 0px;
+     margin-top: 0px;
 }
 .noticiasprinc{
     height: 600px;
@@ -176,7 +170,7 @@ h1{
 .publicidad{
     object-fit: cover;
     justify-content: flex-end;
-    background-color: ;
+    background-color: gray ;
     height: 100%;
 }
 .publi{
