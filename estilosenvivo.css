@@ -166,7 +166,7 @@ body li {
         padding-top: 1.4em;
         justify-content: space-around;
         width: 100%;
-        margin: 0;
+        margin-bottom: 5em;
     }
         #vid {
             margin: 1.5em;
@@ -191,14 +191,11 @@ body li {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    object-fit: cover;
     width: 100%;
 }
-    #minigif {
-        display: flex;
-        justify-content: center;
-        width: 300px;
-        padding-top: 60px;
+    #gif {
+        margin: 5px;
+        width: 350px;
     }
 
 
@@ -207,6 +204,7 @@ body li {
     flex-direction: column;
     align-items: flex-end;
     padding-top: 10em;
+    align-items: center;
 }
     #dolar {
         padding-top: 0px;
