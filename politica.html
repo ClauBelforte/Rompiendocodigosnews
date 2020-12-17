@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="./estilospolitica.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bf91ce9ef4.js" crossorigin="anonymous"></script>
     <title>Política</title>
 </head>
 <body>
     <header id="encabezado">
         <div id="cabecera">
             <div id="icon-menu">
-                <nav id="nav">
+                <div class="menudespl">
                     <ul>
                         <li><img src="./imagenes/iconomenu.png" alt="menu" title="Menú">
                             <ul>
@@ -27,54 +28,64 @@
                             </ul>
                         </li>
                     </ul>
-                </nav>
+                </div>
             </div>
-            <Figure id="imgCabecera">
-                <a href="index.html"><img src="./imagenes/logo1.png" alt="Rompiendo Codigos News" title="Rompiendo Codigos News"></a>
-            </Figure>
+                    <a href="index.html"><img class="logoinicio" src="./imagenes/logo1.png" alt="Rompiendo Codigos News" title="Rompiendo Codigos News"></a>
+            </div>
+            <div class="titulo">
             <h1>Política</h1>
         </div>
     </header>
     <main>
         <div id="principal">
             <nav id="menufijo">
-                <ul>
-                    <li><a href="./espectaculos.html"> Espectáculos</a></li>
-                    <li>|</li>
-                    <li><a href="./deportes.html"> Deportes</a></li>
-                    <li>|</li>
-                    <li><a href="./economia.html"> Economía</a></li>
-                    <li>|</li>
-                    <li><a href="#"> Policiales</a></li>
-                    <li>|</li>
-                    <li><a href="./politica.html"> Política</a></li>
-                    <li>|</li>
-                    <li><a href="#">&#x1F534; EN VIVO </a></li>
-                </ul>
+                    <a href="./espectaculos.html" class="palabra"> ESPECTÁCULOS</a>
+                    <a>|</a>
+                    <a href="./deportes.html" class="palabra"> DEPORTES</a>
+                    <a>|</a>
+                    <a href="./economia.html" class="palabra"> ECONOMÍA</a>
+                    <a>|</a>
+                    <a href="./policiales.html" class="palabra"> POLICIALES</a>
+                    <a>|</a>
+                    <a href="./politica.html" class="palabra"> POLITICA</a>
+                    <a>|</a>
+                    <a href="./envivo.html" class="palabra"><i class="fas fa-circle"></i> EN VIVO </a>
             </nav>
         </div>
-        <div class="noticias">
-            <ul>
-                <li>
-                    <img src="" alt="">
+        <div class="position">
+                <a href="/index.html">Home</a>
+                <a>|</a>
+                <a href="/politica.html">Política</a>
+        </div>
+        <section id="noticias">
+            <div class="noticiasprinc">
+                <div class="container-principal">
+                    <img src="./imagenes/politica/JoeBiden.jpg" alt="JoeBiden" title="">
                     <h2>Comienza la era Joe Biden: el Colegio Electoral lo eligió formalmente como presidente de EE.UU.</h2>
                     <p>
-                    Más de un mes después de las elecciones del 3 de noviembre, el Colegio Electoral certificó este lunes al demócrata Joe Biden como presidente electo de los Estados Unidos, tras rechazar el Tribunal Supremo las demandas del republicano Donald Trump, quien aún no reconoce la derrota. <br>
-                    El demócrata ganó con un total de 81,3 millones de votos, 51,3% de los sufragios emitidos, frente a 74,2 millones (46,8%) del magnate republicano. <br>
-                    Esta noche, el presidente electo tiene previsto dar un discurso desde su feudo de Delaware para celebrar este último paso que consagra de forma definitiva su victoria y “la fortaleza y la resiliencia” de la democracia estadounidense, según apuntó en un comunicado. <br>
-                    
+                    Más de un mes después de las elecciones del 3 de noviembre, el Colegio Electoral certificó este lunes al demócrata Joe Biden como presidente electo de los Estados Unidos, tras rechazar el Tribunal Supremo las demandas del republicano Donald Trump, quien aún no reconoce la derrota.
                     </p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                   <img src="" alt="" title="">
+            </div>
+            <div class="container-principal">
+                    <img src="./imagenes/politica/vacuna.jpg" alt="vacuna" title="Vacuna CoVid-19">
                    <h2>Misión del Gobierno en Rusia acelera la llegada de la vacuna contra el Covid-19</h2>
                    <p>La asesora presidencial Cecilia Nicolini, quien viajó a Rusia para ultimar los detalles de la adquisición de la Sputnik V, aseguró que las primeras dosis llegarán en las próximas semanas.</p>
-
-                </li>
-            </ul>
+            </div>
         </div>
+        <div class="publicidad">
+            <div class="dolar">
+                <iframe style="width: 200px; height: 150px; margin: 1%;" frameborder="0" scrolling="no"
+                    src="https://www.cotizacion-dolar.com.ar/recursos-webmaster/promedios/cotizacion-argentina-adaptable.php">
+                </iframe>
+            </div>
+            <a target="_blank"href="https://instagram.com/plataforma39a?igshid=1uboriqng3zi"><img src="./imagenes/39A.png" class="publi" alt=""></a>
+            <form action=""> 
+                <h3>SUSCRIBETE</h3>
+                <div><input type="email" class="form-control" placeholder="Ingresa tu mail"></div>
+                <div><input type="password" class="form-control" placeholder="Ingresa tu contraseña"></div><div><input type="submit" class="boton" value="Enviar"></div>
+            </form>
+        </div>
+        </section>
     </main>
 </body>
 </html>
