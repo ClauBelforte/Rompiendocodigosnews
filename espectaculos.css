@@ -15,7 +15,6 @@ body{
 p{
     padding: 10px;
 }
-
 /* INICIO CABEZERA */
 header{
     width: 100%;
@@ -55,10 +54,9 @@ header{
 #icon-menu img{
     width: 30px;
 }
-#cabecera #clima{
-    border:1px solid #3A2F2F;
+#cabecera .clima{
     width: 300px;
-    text-align: center;
+    height: 70px !important;
     margin-left: 200px;
 
 }
@@ -81,9 +79,9 @@ header{
     display: none;
     position: absolute;
 }
-#nav > ul > li:active > ul{
+#nav > ul > li:hover > ul{
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column; 
     align-items: center;
     width: 250px;
     height: auto;
@@ -100,6 +98,11 @@ header{
 header #imgCabecera img{
     margin-left: 40px;
     width: 200px;
+}
+.class{
+    width: 200px;
+    height: 70px !important;
+    margin-left: 300px;
 }
 #menu{
     height: 45px;
@@ -125,17 +128,36 @@ header #imgCabecera img{
     color: #FFFFFF;
     font-size: 18px;
 }
-/* #menu nav ul li::after{
-    content: "|";
-    color: #FFFFFF;
-    margin-left: 50%;
-} */
+#menu nav ul #vivo{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+#circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #FB0000;
+    color: #FB0000;
+    margin-right: 10px;
+}
+/* FIN DEL HEADER */
 
-
-
-
-
-/* SUGERENCIAS */
+/* INICIO MAIN */
+#main{
+    padding-top: 140px;
+    
+    display: flex;
+    flex-flow: row wrap;
+}
+main section{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+main h2{
+    padding: 10px;
+}
 main .ubicacion{
     width: 100%;
 }
@@ -159,29 +181,6 @@ main .ubicacion ul{
 .ubicacion ul li a:hover{
     border-bottom: 1px solid #3A2F2F;
 }
-
-
-
-
-
-
-
-/* FIN DEL HEADER */
-
-/* INICIO MAIN */
-#main{
-    padding-top: 140px;
-    
-    display: flex;
-    flex-flow: row wrap;
-}
-main section{
-    
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
 main section article{
     padding: 10px;
     margin-bottom: 10px;
@@ -191,8 +190,7 @@ main section article{
 }
 main section .art-principal{
     width: 510px;
-    /* height: 300px;
-    border: 1px solid #3A2F2F; */
+    border: 1px solid rgb(187, 186, 186);
 }
 main section .art-principal figure img{
     width: 400px;
@@ -200,8 +198,7 @@ main section .art-principal figure img{
 }
 main section .art-principal2{
     width:410px;
-    /* height: 300px;
-    border: 1px solid #3A2F2F; */
+    border: 1px solid rgb(187, 186, 186); 
 }
 .art-principal2 figure img{
     width: 320px;
@@ -209,34 +206,19 @@ main section .art-principal2{
 }
 main section .art-gral{
     width: 300px;
-    /* height: 300px;
-    border: 1px solid #3A2F2F; */
+    border: 1px solid rgb(187, 186, 186);
 }
 main section .art-gral figure img{
     width: 280px;
 }
-section aside{
-    width: 200px;
-    padding: 5%;
-}
-#aside aside img{
-    width: 200px;
-    height: 480px;
-    
-
-    align-self: center;
-}
 
 
-
-/* 
-sugerencias */
 #relleno{
     flex-direction: column;
     margin: 10px;
 }
 #relleno article{
-    width: 100%;
+    width: 97%;
     height: auto;
     border: none;
     text-align: justify;
@@ -248,39 +230,17 @@ sugerencias */
     align-items: center;
 }
 
-#contactos > ul > li > ul{
-    display: none;
-    padding-left: 0px;
-}
-#contactos > ul{
-    width: 50px;
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
-}
-#contactos img{
-    width: 30px;
-}
-
-#contactos > ul > li:hover > ul{
-    width: 50px;
+#aside aside{
+    width: 200px;
+    padding: 5%;
     background-color: #3A2F2F;
-    border-radius: 10px;
-    height: 150px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;    
+    height: 100%;   
 }
-aside{
-    background-color: #3A2F2F;
+#aside aside img{
+    width: 200px;
+    height: auto;
+    align-self: center;
+    margin: 15px 0px;
 }
 aside form{
     margin-top: 30px;
@@ -294,7 +254,7 @@ aside form{
     align-items: center;
 }
 aside form input{
-    padding: 5px;
+    padding: 5px 0px;
     margin: 10px 0px;    
 }
 aside h2{
@@ -311,15 +271,114 @@ aside form input[type="submit"]{
     color: #FFFFFF;
     border-radius: 10px;
 }
-
-
-
+aside #cohete img{
+    padding-top: 15px;
+    width: 200px;
+    height: 500px;
+}
 
 /*FIN MAIN
+
 INICIO FOOTER */
-span{
-    margin: 10px;
-    color: #3A2F2F;
+
+#footer{
+    height: 220px;
+    margin-top: 30px;
+    background-color: #1b1919;
+    padding-top: 15px;
+    
     display: flex;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
+
+#footer img{
+    margin-left: 50px;
+    width: 220px;
+    height: 120px;
+
+}
+
+#footer ul{
+    color: white;
+    list-style: none;
+}
+
+#footer #secciones{
+    align-self: flex-start;
+    margin-left: 50px;
+}
+
+#footer #secciones li{
+    padding: 5px;
+}
+#footer #secciones:first-child{
+    margin-bottom: 50px;
+}
+#footer #secciones a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#footer #secciones a:hover{
+    font-weight: bold;
+}
+
+#footer #contfoot h2{
+    margin-left: 100px;
+}
+
+#footer #contfoot li{
+    padding: 5px;
+}
+
+#footer #contfoot #contacto3{
+    margin-top: 10px;
+}
+
+
+.redes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-right: 190px;
+}
+.redes i {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.facebook i {
+    color: rgb(58, 58, 196);
+}
+
+.facebook i:hover {
+    color: rgb(95, 95, 226);
+}
+
+.twitter i {
+    color: rgb(0, 217, 255);
+}
+
+.twitter i:hover {
+    color: rgb(54, 183, 206) ;
+}
+
+.instagram i {
+    color: rgb(214, 52, 174);
+}
+
+.instagram i:hover {
+    color: rgb(187, 43, 151);
+}
+
+#derechos{
+    background-color: #1b1919;
+}
+#derechos p{
+    color: red;
+    text-align: center;
+}
+
+/*FIN*/
