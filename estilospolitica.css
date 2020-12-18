@@ -5,6 +5,20 @@ body{
     padding: 0%;
     margin: 0;
 }
+.caminito{
+    width: 300px;
+    color: rgb(39, 37, 37);
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+.caminito a{
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+}
 
 nav{
     background-color: #3a2f2f;
@@ -123,31 +137,29 @@ h1{
     align-items: flex-start;
     width: 100%;
 }
-.caminito{
-
-}
 #noticias{
     padding-top: 8rem;
     flex-flow: row wrap;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
 }
 .noticiasprinc{
     height: 600px;
     display: flex;
     flex-flow: row wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 .noticiasprinc img{
-    width: 300px;
+    width: 400px;
     height: 200px;
-    padding: 15px;
+    padding: 40px;
 }
 .container-principal{
     align-content: center;
-    width: 350px;
+    width: 500px;
     height: auto;
     border: 1px solid rgb(187, 186, 186);
 }
@@ -158,27 +170,48 @@ h1{
     color: red;
 }
 .noticiassec{
-    height: 600px;
     display: flex;
     flex-flow: row wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    width: 1000px;
+}
+a.mini-noticia{
+    text-decoration: none;
+    color: rgb (39,37,37)
 }
 .container-sec{
-    align-content: center;
-    width: 350px;
-    height: auto;
+    width: 290px;
+    height: 430px;
     border: 1px solid rgb(187, 186, 186);
-    display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    justify-content: center;
+    color: rgb(39, 37, 37);
+    padding: 20px;
+}
+.container-sec img{
+    width: 230px;
+    padding: 20px 40px 40px 40px;
+}
+
+a{
+    font-size: 16px;
+    color: rgb (39,37,37);
+    text-decoration: none;
+}
+b{
+    color: #fb0000;
+    text-align: start;
+    margin-top: 5px;
 }
 .publicidad{
     object-fit: cover;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: gray ;
+    margin-top: 35px;
+    align-items: center;
     height: 100%;
+    width: 205px;
 }
 .publi{
     height:780px;
