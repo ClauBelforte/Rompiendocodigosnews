@@ -5,6 +5,20 @@ body{
     padding: 0%;
     margin: 0;
 }
+.caminito{
+    width: 300px;
+    color: rgb(39, 37, 37);
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+.caminito a{
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+}
 
 nav{
     background-color: #3a2f2f;
