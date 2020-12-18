@@ -123,22 +123,18 @@ h1{
     align-items: flex-start;
     width: 100%;
 }
-.caminito{
-
-}
 #noticias{
     padding-top: 8rem;
     flex-flow: row wrap;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
 }
 .noticiasprinc{
     height: 600px;
     display: flex;
     flex-flow: row wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .noticiasprinc img{
     width: 300px;
@@ -158,27 +154,48 @@ h1{
     color: red;
 }
 .noticiassec{
-    height: 600px;
     display: flex;
     flex-flow: row wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    width: 840px;
+}
+a.mini-noticia{
+    text-decoration: none;
+    color: rgb (39,37,37)
 }
 .container-sec{
-    align-content: center;
-    width: 350px;
-    height: auto;
+    width: 250px;
+    height: 400px;
     border: 1px solid rgb(187, 186, 186);
-    display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    justify-content: center;
+}
+.container-sec img{
+    width: 190px;
+}
+.container-sec p{
+margin: 16px 0;
+font-size: 16px;
+text-decoration: none;
+color: rgb (39,37,37)
+}
+a{
+    font-size: 16px;
+    color: rgb (39,37,37);
+    text-decoration: none;
+}
+b{
+    color: #fb0000;
 }
 .publicidad{
     object-fit: cover;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: gray ;
+    margin-top: 70px;
+    align-items: center;
     height: 100%;
+    width: 205px;
 }
 .publi{
     height:780px;
