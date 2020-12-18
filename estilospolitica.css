@@ -123,28 +123,15 @@ h1{
     align-items: flex-start;
     width: 100%;
 }
-.position {
-    margin: 0px;
-    width: 500px;
-    display: flex;
-    justify-content: flex-start;
-    flex-flow: row wrap;
-    font-family: 'Raleway', sans-serif;
-}
-.position a{
-    list-style: none;
-    color: black;
-    font-size: 18px;
-    text-align: justify;
-    padding-top: 10px;
-    padding-left: 15px;
+.caminito{
+
 }
 #noticias{
     padding-top: 8rem;
     flex-flow: row wrap;
     display: flex;
     justify-content: space-between;
-     margin-top: 0px;
+    margin-top: 100px;
 }
 .noticiasprinc{
     height: 600px;
@@ -167,6 +154,26 @@ h1{
 .noticiasprinc p, h2{
     padding: 10px;
 }
+.noticiasprinc h2{
+    color: red;
+}
+.noticiassec{
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+.container-sec{
+    align-content: center;
+    width: 350px;
+    height: auto;
+    border: 1px solid rgb(187, 186, 186);
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
 .publicidad{
     object-fit: cover;
     justify-content: flex-end;
@@ -188,7 +195,7 @@ i{
     color: white;
     background-color: black;
     display: flex;
-    flex-flow: row wrap;
+    justify-content: space-around;
 }
 .footer a{
     text-decoration: none;
@@ -204,20 +211,17 @@ i{
     padding-top: 60px;
 }
 
-.footer>ul>li{
+.footer>ul{
+    list-style: none;
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
 }
 .social-media>ul{
     list-style: none;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: flex-end;
 }
-
-.fin{
+.pie{
     color: red;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
