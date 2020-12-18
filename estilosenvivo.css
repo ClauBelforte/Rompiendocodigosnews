@@ -136,7 +136,7 @@ header {
 .gifp39 img {
     height: 110px;
     object-fit: cover;
-    width: 670px;
+    width: 500px;
     padding: 0;
 }
 .clima {
@@ -209,15 +209,16 @@ body li {
 #nomvid {
     display: flex;
     align-items: center;
-    padding-top: 5em;
+    padding-top: 4%;
     justify-content: space-around;
     width: 100%;
     margin: 0;
     text-align: center;
 }
     #tit {
-        margin-top: 0.2em;
+        margin-top:0;
         font-size: 2em;
+        margin-bottom: 2%;
     }
 
         #vids {
@@ -225,10 +226,10 @@ body li {
             padding-top: 0;
             justify-content: space-around;
             width: 100%;
-            margin-bottom: 5em;
+            margin-bottom: 5%;
         }
             #vid {
-                margin: 1.5em;
+                margin: 1%;
             }
 
 
@@ -241,7 +242,7 @@ body li {
 }
     #gif {
         margin: 5px;
-        width: 350px;
+        width: 280px;
     }
 
 
