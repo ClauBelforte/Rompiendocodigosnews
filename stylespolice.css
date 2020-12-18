@@ -141,12 +141,14 @@ header a:hover {
  }
  /* apartir de acá empiezan las secciones */
 .container-principal {
+	width: 980px;
 	height: 1000px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: right;
 	align-content: center;
 	padding-left: 60px;
+	margin-top: 200px;
 }
 
 .container-principal img {
@@ -163,6 +165,7 @@ header a:hover {
 	height: auto;
 	align-content: center;
 	border: 1px solid rgb(187,186,186);
+	margin-top: 50px;
 }
 
 #primera {
@@ -170,7 +173,7 @@ header a:hover {
 	justify-content: space-between;
 	display: flex;
 	padding-top: 8rem;
-	margin-top: 120px;
+	width: 100%;
 }
 
 .aside {
@@ -179,6 +182,8 @@ header a:hover {
 	background-color: var(--gris);
 	height: 100%;
 	flex-direction: column;	
+	padding-top: 10px;
+	margin-top: 15px;
 }
 
 	.divisa {
@@ -231,20 +236,27 @@ header a:hover {
 	flex-flow: row wrap;
 	justify-content: space-between;
 	margin-bottom: 30px;
-	padding-left: 15px;
+	
 }
 
 .mini-noticia {
 	width: 220px;
 	padding: 40px;
 	border: 1px solid rgb(187, 186, 186);
-	height: 350px;
+	height: 450px;
+	color: var(--gris);
+	font-size: 16px;
 	
 }
 
 .mini-noticia img {
 	width: 200px;
 	padding-left: 15px;	
+}
+
+.mini-noticia a {
+	text-decoration: none;
+	color: var(--gris);
 }
 
 .noti {
