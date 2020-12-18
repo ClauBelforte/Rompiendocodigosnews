@@ -14,21 +14,29 @@ body{
 /*Menu horizontal fijo*/
 /*INICIO*/
 
+#menu{
+    height: 45px;
+    background-color: #3A2F2F;
+}
+
 #menu nav ul{
     list-style: none;
     display: flex;
     background-color: #3a2f2f;
     flex-direction: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #menu nav ul li{
+    font-size: 18px;
     padding: 15px;
     list-style: none;
+    color: #FFFFFF;
 }
 #menu nav ul li a{
     text-decoration: none;
     color: #FFFFFF;
+    font-size: 18px
 }
 
 #menu nav ul li a:hover{
@@ -49,7 +57,7 @@ span.red {
     display: inline-block;
     font-weight: bold;
     line-height: 1.6em;
-    margin-right: 15px;
+    margin-right: 10px;
     text-align: center;
     width: 1.2em; 
   }
@@ -63,7 +71,7 @@ span.red {
 header{
     width: 100%;
     background-color: #FFFFFF;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;    
@@ -82,13 +90,12 @@ header{
 
 #cabecera div{
     margin-top: 50px;
-    margin: 10px;
+    margin: 0px;
     font-size: xx-large;
-    line-height: 75px;
 }
 
 #cabecera .clima{
-    margin-left: 275px;
+    margin-left: 205px;
 }
 
 #cabecera h1{
@@ -114,12 +121,25 @@ header #logoDiario img{
 
 #nav ul li{
     padding: 0px;
+    align-self: center;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+#nav > ul > li > ul > li{
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+#nav #inicio2{
+    margin-top: 40px;
 }
 
 #nav > ul > li > ul > li > a{
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     /* margin: 50px 0px; */
@@ -136,9 +156,10 @@ header #logoDiario img{
     flex-direction: column;
     align-items: center;
     width: 250px;
-    background-color: #0D0C0C;
+    height: auto;
+    background-color: #3A2F2F;
     list-style: none;
-    top:0px;
+    top:5px;
     left:40px;
 }
 
@@ -154,8 +175,8 @@ header #logoDiario img{
 
 #ruta{
     color: black;
-    margin-top: 180px;
     margin-left: 50px;
+    margin-top: 10px;
     display: flex;
     height: 50px;
     width: 1000px;
@@ -197,8 +218,18 @@ header #logoDiario img{
     padding: 15px;
     display: flex;
     flex-flow: column wrap;
+    justify-content: space-between;
     color: black;
 }
+#noticias ul li h2{
+    font-size: 22px;
+    color: red;
+}
+#noticias ul li p{
+    color: #7c7777;
+    text-align: justify;
+}
+
 #noticias2 a:link{
   color: #fb0000;
   text-decoration: none;
@@ -241,6 +272,17 @@ header #logoDiario img{
     height: 169px;
     width: 298px;
 }
+#noticias2 ul li h2{
+    font-size: 18px;
+    text-align: start;
+}
+
+#noticias2 p{
+    font-size: 15px;
+    color:#7c7777
+}
+
+
 
 #noticias3{
     margin-top: 20px;
@@ -259,7 +301,6 @@ header #logoDiario img{
     list-style: none;
     width: 970px;
     padding: 20px;
-    border:1px solid rgb(187, 186, 186);
     margin-left: 1px;
     margin-right: 1px;
     display: flex;
@@ -274,6 +315,18 @@ header #logoDiario img{
 #noticias3 ul li h2{
     align-self: center;
     margin-left: 20px;
+    color: red;
+    font-size: 18px;
+    text-align: start;
+}
+#noticias3 ul li p{
+    font-size: 15px;
+    color:#7c7777;
+    margin-left: 20px;
+}
+
+#ultimas{
+    align-self: center;
 }
 
 /*FIN*/
@@ -284,6 +337,7 @@ header #logoDiario img{
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+    margin-top: 160px;;
 }
 
 #contenido {
@@ -292,18 +346,24 @@ header #logoDiario img{
     align-items: flex-end;
     background-color: #3a2f2f;
     align-items: center;
+    width: 80px;
+    padding-right: 5%;
+    padding-left: 5%;
 }
+
     #dolar {
-        margin-top: 0px;
+        width: 200px;
+        margin-top: 8px;
     }
 
     .form {
-        background-color:rgb(44, 42, 42);
         border-color:red solid 1px;
         border-radius: 10px;
         text-align: center;
-        color: white;
+        color:red;
         margin-top: 25px;
+        background-color: #ffffff;
+        width: 200px;
     }
         .form input {
             margin: 1em;
@@ -314,20 +374,31 @@ header #logoDiario img{
                 width: 70px;
                 border: none;
                 height: 25px;
+                color: white;
             }
+.form h2{
+    text-transform: uppercase;
+    color: #FB0000;
+    padding: 5px 0px;
+    text-decoration: underline;
+}
 
     #p39a {
         display: flex;
         flex-flow: column wrap;
+        width: 200px;
     }
             #gifcohet {
                 object-fit: cover;
-                width: 216px;
+                width: 200px;
                 height: 400px;
                 margin-top: 25px;
             }
-    #contenido a{
+    #contenido #instagram img{
         margin-top: 25px;
+        align-self: center;
+        width: 200px;
+        height: 640px;
     }
 /*FIN*/
 
