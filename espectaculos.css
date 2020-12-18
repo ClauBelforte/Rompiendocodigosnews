@@ -3,23 +3,23 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
+    
 }
+
 
 body{
     font-family: 'Raleway', sans-serif;
+    padding-top: 160px;
 
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;    
-}
-p{
-    padding: 10px;
+    flex-flow: row wrap;
+    justify-content: space-between;    
 }
 /* INICIO CABEZERA */
 header{
     width: 100%;
     background-color: #FFFFFF;
-    margin-bottom: 50px;
+
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -32,11 +32,9 @@ header{
     z-index:1;
 }
 #cabecera{
-
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-
 }
 #cabecera div{
     margin-top: 50px;
@@ -54,45 +52,54 @@ header{
 #icon-menu img{
     width: 30px;
 }
+#menu nav ul li a:hover{
+    font-weight: bold;
+}
 #cabecera .clima{
     width: 300px;
     height: 70px !important;
-    margin-left: 200px;
+    margin-left: 150px;
 
 }
-
 /* MENU DEPLeGABLE */
+#nav > ul > li > ul > li{
+   padding: 0;
+   margin: 0;
+}
+#nav > ul > li > ul > li{
+    height: 60px;
+}
+
 #nav > ul > li > ul > li > a{
     color: #FFFFFF;
     text-decoration: none;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    padding: 15px 0px;
-    /* margin: 50px 0px; */
-}
+
+    }
 #nav > ul > li > ul > li > img{
     width: 200px;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 #nav > ul > li > ul{
     display: none;
     position: absolute;
 }
 #nav > ul > li:hover > ul{
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
     width: 250px;
     height: auto;
     background-color: #3A2F2F;
     list-style: none;
     
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
     position:fixed;
     top:5px;
     left:40px
 }
-
 /* FIN MENU DESPLEGABLE */
 
 header #imgCabecera img{
@@ -118,33 +125,32 @@ header #imgCabecera img{
     justify-content: space-evenly;
 }
 #menu nav ul li{
+    font-size: 18px;
     padding: 15px;
     list-style: none;
     color: #FFFFFF;
-    font-size: 18px;
 }
 #menu nav ul li a{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 18px;
 }
-#menu nav ul #vivo{
+.vivo{
     display: flex;
     flex-flow: row-reverse nowrap;
 }
-#circle{
+.circle{
     width: 20px;
     height: 20px;
     border-radius: 100%;
     background-color: #FB0000;
-    color: #FB0000;
     margin-right: 10px;
 }
 /* FIN DEL HEADER */
 
 /* INICIO MAIN */
 #main{
-    padding-top: 140px;
+    width: 80%;
     
     display: flex;
     flex-flow: row wrap;
@@ -158,16 +164,16 @@ main section{
 main h2{
     padding: 10px;
 }
-main .ubicacion{
-    width: 100%;
+.ubicacion{
+    width: 700px;
+    height: 35px;
+    margin-left: 20px;
 }
-main .ubicacion ul{
+.ubicacion ul{
+    list-style: none;
+
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 10px;
-    list-style: none;
 }
 .ubicacion ul li{
     padding-right:10px;
@@ -185,31 +191,60 @@ main section article{
     padding: 10px;
     margin-bottom: 10px;
 }
-#articulos{
-    width: 84%;
-}
 main section .art-principal{
-    width: 510px;
+    width: 41%;
+    height: fit-content;
     border: 1px solid rgb(187, 186, 186);
+    color: #FB0000;
 }
-main section .art-principal figure img{
+main section article a{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+main section article h2{
+    text-decoration: none;
+    color: #FB0000;
+    font-size: 22px;
+    text-align: left;
+}
+p{
+    color: #7c7777;
+    text-align: justify;
+}
+main section .art-principal img{
     width: 400px;
     padding: 10px;
 }
-main section .art-principal2{
-    width:410px;
-    border: 1px solid rgb(187, 186, 186); 
-}
-.art-principal2 figure img{
-    width: 320px;
-    padding: 20px;
-}
+
 main section .art-gral{
     width: 300px;
+    height: unset;
+    overflow: hidden;
     border: 1px solid rgb(187, 186, 186);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+main section .art-gral figure{
+    width: 100%;
+    height: 158px;
 }
 main section .art-gral figure img{
-    width: 280px;
+    width:100%;
+    max-height: 158px;
+}
+.art-gral h2{
+    font-size: 18px;
+    text-align: start;
+}
+.art-gral p{
+    font-size: 15px;
+    color:#7c7777
 }
 
 
@@ -229,21 +264,39 @@ main section .art-gral figure img{
     justify-content: flex-start;
     align-items: center;
 }
-
-#aside aside{
-    width: 200px;
+main section .img-relleno figure img{
+    width:250px;
+    height: 140px;
+}
+#relleno article div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+}
+#relleno article h2{
+    width: 100%;
+    text-align: start;
+    font-size: 18px;
+}
+#aside{
+    width: 17%;
+}
+aside{
+    width: 90%;
     padding: 5%;
     background-color: #3A2F2F;
-    height: 100%;   
+    margin-right: 25px;
+    margin-top: -35px;
 }
 #aside aside img{
-    width: 200px;
+    width: 208px;
     height: auto;
     align-self: center;
-    margin: 15px 0px;
+    padding-top: 15px;
 }
 aside form{
-    margin-top: 30px;
+    margin-top: 15px;
     background-color: #ffffff;
     border-radius: 5%;
     padding: 5px 0px;
@@ -262,82 +315,76 @@ aside h2{
     color: #FB0000;
     padding: 5px 0px;
     text-decoration: underline;
-    padding-bottom: ;
 }
 aside form input[type="submit"]{
     width: 100px;
     height: 30px;
-    background-color: #3A2F2F;
+    background-color: #FB0000;
     color: #FFFFFF;
+    border: 1px solid #FB0000;
     border-radius: 10px;
 }
 aside #cohete img{
     padding-top: 15px;
-    width: 200px;
+    width: 208px;
     height: 500px;
 }
+
 
 /*FIN MAIN
 
 INICIO FOOTER */
-
-#footer{
-    height: 220px;
+footer{
+    width: 100%;
+    height: inherit;
     margin-top: 30px;
-    background-color: #1b1919;
-    padding-top: 15px;
-    
+    background-color: #3A2F2F;
+    padding-top: 10px;
+}
+#footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
-
 #footer img{
     margin-left: 50px;
     width: 220px;
     height: 120px;
+    margin-top: 30px;
 
+    align-self: flex-start;
 }
-
 #footer ul{
     color: white;
     list-style: none;
 }
-
-#footer #secciones{
+#footer ul{
     align-self: flex-start;
     margin-left: 50px;
 }
-
-#footer #secciones li{
-    padding: 5px;
+#footer ul li{
+    padding: 8px;
 }
-#footer #secciones:first-child{
-    margin-bottom: 50px;
+#footer ul:first-child{
+    margin-bottom: 10px;
 }
-#footer #secciones a:link {
+#footer ul a{
     text-decoration: none;
     color: white;
 }
-
-#footer #secciones a:hover{
+#footer ul a:hover{
     font-weight: bold;
 }
-
 #footer #contfoot h2{
     margin-left: 100px;
 }
-
 #footer #contfoot li{
     padding: 5px;
 }
-
 #footer #contfoot #contacto3{
     margin-top: 10px;
 }
-
-
 .redes {
     display: flex;
     flex-flow: row wrap;
@@ -374,11 +421,11 @@ INICIO FOOTER */
 }
 
 #derechos{
-    background-color: #1b1919;
+    background-color: #3A2F2F;
+    height: max-content;
+    padding-bottom: 10px;
 }
 #derechos p{
-    color: red;
+    color: #ffffff;
     text-align: center;
 }
-
-/*FIN*/
