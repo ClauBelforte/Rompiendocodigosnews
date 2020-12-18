@@ -243,7 +243,8 @@ header a:hover {
 }
 
 .mini-noticia img {
-	width: 200px;	
+	width: 200px;
+	padding-left: 15px;	
 }
 
 .noti {
