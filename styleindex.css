@@ -473,7 +473,7 @@ footer {
     color: var(--blanco);
     margin: 0;
     padding: 0;
-    height: auto;
+    height: 254px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -514,10 +514,11 @@ footer h2 {
 }
 
 footer img {
-    width: 220px;
-    height: 130px;
+    width: 200px;
+    height: 94px;
     margin-left: 50px;
-    padding-top: 60px;
+	padding-top: 80px;
+	margin-top: 50px;
 }
 
 .container-footer {
@@ -525,7 +526,8 @@ footer img {
     justify-content: space-between;
     display: flex;
     flex-flow: row wrap;
-    align-content: center;
+	align-content: center;
+	height: 250px;
 }
 
 .contacto {
