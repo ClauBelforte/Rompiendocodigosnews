@@ -1,7 +1,7 @@
 :root {
 	--rojo:#fb0000;
 	--negro: #0d0c0c;
-	--gris: #3a2f2f;
+	--gris: rgb(39, 37, 37);
 	--blanco: #ffffff;
 	}
 
@@ -147,6 +147,7 @@ header a:hover {
 	justify-content: right;
 	align-content: center;
 	padding-left: 60px;
+	width: 1000px;
 }
 
 .container-principal img {
@@ -171,6 +172,7 @@ header a:hover {
 	display: flex;
 	padding-top: 8rem;
 	margin-top: 120px;
+	width: 100%;
 }
 
 .aside {
@@ -238,8 +240,12 @@ header a:hover {
 	width: 220px;
 	padding: 40px;
 	border: 1px solid rgb(187, 186, 186);
-	height: 350px;
+	height: 450px;
 	
+}
+
+b {
+	color:var(--rojo);
 }
 
 .mini-noticia img {
