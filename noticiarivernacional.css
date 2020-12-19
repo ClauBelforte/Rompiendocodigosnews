@@ -48,20 +48,6 @@ body{
     display: flex;
 }
 
-span.red {
-    background: red;
-     border-radius: 0.8em;
-    -moz-border-radius: 0.8em;
-    -webkit-border-radius: 0.8em;
-    color: #ffffff;
-    display: inline-block;
-    font-weight: bold;
-    line-height: 1.6em;
-    margin-right: 10px;
-    text-align: center;
-    width: 1.2em; 
-  }
-
 
 /*FIN*/
 
@@ -112,6 +98,21 @@ header #logoDiario img{
     width: 200px;
 }
 
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #FB0000;
+    margin-right: 10px;
+}
+
+div #fasfa-circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #FB0000;
+    margin-right: 5px;
+}
 /*FIN*/
 
 /* MENU DEPLEGABLE */
@@ -130,6 +131,8 @@ header #logoDiario img{
     height: 60px;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-flow: row;
 }
 
 #nav #inicio2{
@@ -146,6 +149,7 @@ header #logoDiario img{
 }
 #nav > ul > li > ul > li > img{
     width: 200px;
+    height: 100px;
 }
 #nav > ul > li > ul{
     display: none;
@@ -166,6 +170,7 @@ header #logoDiario img{
 #nav ul li ul li a:hover{
     font-weight: bold;
 }
+
 /* FIN MENU DESPLEGABLE */
 
 /*NOTICIA*/
@@ -307,11 +312,18 @@ header #logoDiario img{
                 margin-top: 25px;
             }
     #contenido #instagram img{
-        margin-top: 25px;
-        align-self: center;
-        width: 200px;
-        height: 640px;
+    margin-top: 25px;
+    align-self: center;
+    width: 200px;
+    height: 640px;
     }
+    #contenido #meli img{
+    margin-top: 25px;
+    align-self: center;
+    width: 200px;
+    height: all;
+}
+
 /*FIN*/
 
 /*Gifs*/
@@ -319,21 +331,29 @@ header #logoDiario img{
 
 #giffinal img{
     padding: 20px;
-    margin-left: 90px;
+    margin-left: 70px;
     height: 300px;
-    width: 400px;
+    width: 340px;
 }
 
 #gifcentral img{
-    width: 950px;
+    width: 750px;
     height: 260px;
-    margin-left: 80px;
+    margin-left: 110px;
     margin-top: 20px;
 }
 /*FIN*/
 
 /*footer*/
 /*INICIO*/
+
+footer a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    list-style: square;
+}
+
 
 #footer{
     display: flex;
@@ -360,10 +380,13 @@ header #logoDiario img{
 #footer #secciones{
     align-self: flex-start;
     margin-left: 50px;
+    color: #FFFFFF;
 }
 
 #footer #secciones li{
-    padding: 5px;
+    padding-top: 15px;
+    display: flex;
+    flex-flow: row;
 }
 #footer #secciones a:link {
     text-decoration: none;
@@ -372,6 +395,10 @@ header #logoDiario img{
 
 #footer #secciones a:hover{
     font-weight: bold;
+}
+
+footer h2 {
+    font-size: 18px ;
 }
 
 #footer #contfoot h2{
@@ -431,6 +458,5 @@ header #logoDiario img{
 }
 
 /*FIN*/
-
 
 
