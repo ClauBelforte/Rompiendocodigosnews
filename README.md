@@ -17,7 +17,13 @@ padding-right: 10%;">
     </ul>
     <br>
      Desarrolladores que trabajaron en esta página
-      
+        <a href="https://github.com/matimza"><p><b>Matias Mendoza</b></p></a>
+    <a href="https://github.com/Priscilla-Rojas"><p><b>Priscilla Rojas</b></p></a>
+    <a href="https://github.com/ClauBelforte"><p><b>Claudia Belforte</b></p></a>
+    <a href="https://github.com/nicocrespi00"><p><b>Nicolas Crespi</b></p></a>
+    <a href="https://github.com/Fr4nee"><p ><b>Franco Romano</b></p></a>
+    <a href="https://github.com/jorlean"><p><b>Jorge Borges</b></p></a>
+    <a href="https://github.com/FacundoCarollo"><p><b>Facundo Carollo</b></p></a>
   
 
    <p> <b>Nuestro diario digital:</b></p>
