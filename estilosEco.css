@@ -154,10 +154,11 @@ div #fasfa-circle{
 }
 #nav > ul > li:hover > ul{
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
     align-items: center;
+    justify-content:space-around;
     width: 250px;
-    height: auto;
+    height: 800px;
     background-color: rgb(39, 37, 37);;
     list-style: none;
     top:5px;
