@@ -119,6 +119,14 @@ header #logoDiario img{
     background-color: #FB0000;
     margin-right: 10px;
 }
+
+div #fasfa-circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #FB0000;
+    margin-right: 5px;
+}
 /*FIN*/
 
 /* MENU DEPLEGABLE */
@@ -137,6 +145,8 @@ header #logoDiario img{
     height: 60px;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-flow: row;
 }
 
 #nav #inicio2{
@@ -468,6 +478,8 @@ footer a {
 
 #footer #secciones li{
     padding-top: 15px;
+    display: flex;
+    flex-flow: row;
 }
 #footer #secciones a:link {
     text-decoration: none;
