@@ -86,7 +86,7 @@ header{
 #cabecera{
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: flex-start;  
 }
 
 #cabecera div{
@@ -112,6 +112,19 @@ header #logoDiario img{
     margin-left: 40px;
     width: 200px;
 }
+
+.gifp39 {
+    margin-top: 3px;
+    margin-bottom: 2px;
+    height: 111px;
+    padding-left: 17px;
+}
+    .gifp39 img {
+        height: 110px;
+        object-fit: cover;
+        width: 670px;
+        padding: 0%;
+    }
 
 /*FIN*/
 
