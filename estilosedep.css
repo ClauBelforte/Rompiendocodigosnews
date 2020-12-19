@@ -112,6 +112,13 @@ header #logoDiario img{
     width: 200px;
 }
 
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #FB0000;
+    margin-right: 10px;
+}
 /*FIN*/
 
 /* MENU DEPLEGABLE */
@@ -423,6 +430,14 @@ header #logoDiario img{
 /*footer*/
 /*INICIO*/
 
+footer a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    list-style: square;
+}
+
+
 #footer{
     display: flex;
     flex-flow: row wrap;
@@ -448,10 +463,11 @@ header #logoDiario img{
 #footer #secciones{
     align-self: flex-start;
     margin-left: 50px;
+    color: #FFFFFF;
 }
 
 #footer #secciones li{
-    padding: 5px;
+    padding-top: 15px;
 }
 #footer #secciones a:link {
     text-decoration: none;
@@ -460,6 +476,10 @@ header #logoDiario img{
 
 #footer #secciones a:hover{
     font-weight: bold;
+}
+
+footer h2 {
+    font-size: 18px ;
 }
 
 #footer #contfoot h2{
