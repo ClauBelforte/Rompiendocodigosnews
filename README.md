@@ -16,7 +16,7 @@ padding-right: 10%;">
         <li><b>Algunos widgets</b></li>
     </ul>
     <br>
-     Desarrolladores que trabajaron en esta página
+    <b> Desarrolladores que trabajaron en esta página:</b>
         <a href="https://github.com/matimza"><p><b>Matias Mendoza</b></p></a>
     <a href="https://github.com/Priscilla-Rojas"><p><b>Priscilla Rojas</b></p></a>
     <a href="https://github.com/ClauBelforte"><p><b>Claudia Belforte</b></p></a>
