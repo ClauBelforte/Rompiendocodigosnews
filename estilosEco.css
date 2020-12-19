@@ -1,398 +1,295 @@
 *{
-    margin: 0 ;
-    padding: 0;
-    
-    }
-    
-    :root {
-        --gris: #3A2F2F;
-        --negro: #0D0C0C;
-        --rojo: #FB0000;
-        --blanco:#FFFFFF;
-    }
-    
-    
-    body{
-        font-family: 'Raleway', sans-serif;
-        m
-       
-    }
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   display: flex;    
+   flex-flow: column wrap;
+   justify-content: space-around; 
+   font-family: 'Raleway', sans-serif;
+}
 
 
-    .contenedor2{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-start;
-       
-        max-width: 1920px;
-        width: 100%;
-        margin:0;
-        
+#menu{
+    height: 45px;
+    background-color: #3A2F2F;
+}
 
-    }
-
-
-
-
-    
-    header{
-       display: flex;
-        width: 100%;
-        flex-flow: row wrap;
-        position: ;
-        justify-content: flex-start;
-        height: 100%;
-    
-    
-    }
-    
-    
-    /* circulo rojo */
-    i{
-    color: red
-    }
-    
-    li i{
-        font-family: 'Raleway', sans-serif;  
-    }
-    
-    .menu2  i:hover{
-        font-weight: bold;
-    }
-    
-    
-    /* clima */
-    
-    
-    .clima{
-        margin: 15px;
-        padding-right: 50px;
-        margin-left: 500px;
-       
-    }
-    
-    
-    /* menu desplegable */
-    
-    
-    
-    
-    
-    li img{
-        width: 200px;
-        height: 200px;
-    }
-    
-    #icon-menu{
-        width: 40px;
-        height: 40px;
-        text-align: center;
-        margin: 0;
-        justify-content: 
-        
-    }
-    
-    
-    #apricion{
-       
-        flex-flow: column wrap;
-        z-index: 1;
-       
-    }
-    
-    .aparicion2{
-        
-    }
-    
-    .contenido-men{
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: space-evenly ;
-        align-items: center;
-       visibility: hidden;
-        opacity: 0;
-        background-color: rgb(39, 37, 37);
-        width: 250px;
-        height: 600px;
-        position: fixed;
-        list-style: none;
-        margin-top: -50px;
-        margin-left: 40px;
-        
-        
-    }
-    
-    .contenido-men ul li{
-       
-        display: flex;
-     
-        position: fixed;
-    
-    }
-    
-    .contenido-men ul li a{
-      
-    }
-    .contenido-men li a{
-        color:#FFFFFF;
-        text-decoration: none;
-        
-        
-        
-    }
-    
-     .contenido-men ul li{
-        font-weight: 0;
-    }
-    
-    #nav:hover .contenido-men{
-        opacity: 1;
-        visibility: visible;
-    }
-    
-    
-    
-    
-    /* cabecera */
-      
-    .logo2 {
-        margin-left: 0px;
-        width: 250px;
-        margin-top: 0;
-    }
-      
-    
-    
-    .nombre{
-        display: flex;
-        flex-flow: row wrap;
-         align-items: center; 
-         margin-left: 200px;
-         color:  #FB0000;
-         
-    }
-    
-    .nombre h1{
-       
-    }
-    
-    
-    
-    
-    /* menu principal */
-    
-    .menu2{
-        width: 100%;
-        max-width: 1920px;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        display: flex;
-        margin: 0;
-         background-color: rgb(39, 37, 37);; 
-        height: 40px;
-        font-family: 'Raleway', sans-serif;
-    }
-    
-    .circle a{
-        color:red;
-    }
-    
-    .menu2  li a{
-        text-decoration: none;
-        color: #FFFFFF;
-        
-    }
-    
-    .menu2 li{
+#menu nav ul{
     list-style: none;
-    }
-    
-    .normal:hover{
-        font-weight: bold;
-    }
-    .circle{
-        font-weight: 0;
-        font-family: 'Raleway', sans-serif;  
-    }
-    .circle:hover{
-        font-weight: bold;
-       
-    }
-    .menu2 li{
-    color: #FFFFFF;;
-    }
-    
-    
-    .inicio a{
-        text-decoration: none;
-        list-style: none;
-    }
-    
-    
-    main{
-        
-        display: flex;
-        width: 100%;
-        max-width: 1920px;
-        flex-flow: row-reverse wrap;
-      
-        justify-content: flex-end;
-        align-items: flex-start;
-        
-    
-    }
-    
-    
-    /* home y economia */
-    .inicio a{
-     text-decoration: none;
-    color: #0D0C0C;
-     
-     
-    }
-    .inicio{
-        margin-top: 25px;
-        margin-left: 30px;
-    }
-    /* contenedor de cohete y de informacion */
-    #main{
-        padding-top: 140px;
-         display: flex;        /*no*/ 
-        flex-flow: row wrap;
-       
-        
-    }
-    
-     
-    
-    
-    /* contenido */
-    
-    #contenido{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-         width: 88%;
-        max-width: 1850px;
-        margin-left: -700px;
-        margin-top: -130px;
-        font-family: 'Raleway', sans-serif;
-        height: 
-    }
-    
-    #contenido .noticia-p{
-        margin-left: -40px;
-    }
+    display: flex;
+    background-color: #3a2f2f;
+    flex-direction: row wrap;
+    justify-content: space-evenly;
+}
 
-    
+#menu nav ul li{
+    font-size: 18px;
+    padding: 15px;
+    list-style: none;
+    color: #FFFFFF;
+}
+#menu nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px
+}
 
-    .noticia-p2{
-        list-style: none;
-        width: 500px;
-        border: 1px;
-        border:1px solid rgb(187, 186, 186);
-        padding: 15px;
-        display: flex;
-        flex-flow: row wrap;
-        color: black;
-        margin-left:  ;
-        
-    }
-    .noticia-p3{
-        list-style: none;
-        width: 360px;
-        border: 1px;
-        border:1px solid rgb(187, 186, 186);
-        padding: 15px;
-        display: flex;
-        flex-flow: row wrap;
-        color: black;
-        margin-left:  ;
-        
-    }
-    .noticia-p4{
-        list-style: none;
-        width: 400px;
-        border: 1px;
-        border:1px solid rgb(187, 186, 186);
-        padding: 15px;
-        display: flex;
-        flex-flow: row wrap;
-        color: black;
-        margin-left:  ;
-        
-    }
+#menu nav ul li a:hover{
+    font-weight: bold;
+}
 
-    .noticia-p6{
-        list-style: none;
-        width: 360px;
-        border: 1px;
-        border:1px solid rgb(187, 186, 186);
-        padding: 15px;
-        display: flex;
-        flex-flow: row wrap;
-        color: black;
-        margin-left:  ;
-        
-    }
+#menu nav ul li{
+    flex-flow: row wrap;
+    display: flex;
+}
 
-    .noticia-p5{
-        list-style: none;
-        width: 360px;
-        border: 1px;
-        border:1px solid rgb(187, 186, 186);
-        padding: 15px;
-        display: flex;
-        flex-flow: row wrap;
-        color: black;
-        margin-left:  
-        
-    }
-    .noticia-p7{
-        list-style: none;
-        width: 360px;
-        border: 1px;
-        border:1px solid rgb(187, 186, 186);
-        padding: 15px;
-        display: flex;
-        flex-flow: row wrap;
-        color: black;
-        margin-left:  
-        
-    }
 
-    .noticia-p8{
-        list-style: none;
-        width: 280px;
-        border: 1px;
-        border:1px solid rgb(187, 186, 186);
-        padding: 15px;
-        display: flex;
-        flex-flow: row wrap;
-        color: black;
-        margin-left: 
-        
-    }
+/*FIN*/
 
-    
-    .noticia-p9{
-        list-style: none;
-        width: 280px;
-        border: 1px;
-        border:1px solid rgb(187, 186, 186);
-        padding: 15px;
-        display: flex;
-        flex-flow: row wrap;
-        color: black;
-        display: flex;
-        flex-flow: row wrap
-        
-    }
+/*LOGO Y SECCION*/
+/*INICIO*/
 
-    
+header{
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-bottom: 0px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;    
+}
+#encabezado{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+}
+#cabecera{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
 
-    #noticias3{
+#cabecera div{
+    margin-top: 50px;
+    margin: 0px;
+    font-size: xx-large;
+}
+
+#cabecera .clima{
+    margin-left: 205px;
+}
+
+#cabecera h1{
+    display: flex;
+    align-self: center;
+    color:#fb0000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin-left: 275px;
+}
+
+header #logoDiario img{
+    margin-left: 40px;
+    width: 200px;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #FB0000;
+    margin-right: 10px;
+}
+
+div #fasfa-circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #FB0000;
+    margin-right: 5px;
+}
+/*FIN*/
+
+/* MENU DEPLEGABLE */
+#icon-menu img{
+    width: 30px;
+}
+
+#nav ul li{
+    padding: 0px;
+    align-self: center;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+#nav > ul > li > ul > li{
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row;
+}
+
+#nav #inicio2{
+    margin-top: 40px;
+}
+
+#nav > ul > li > ul > li > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    /* margin: 50px 0px; */
+}
+#nav > ul > li > ul > li > img{
+    width: 200px;
+    height: 100px;
+}
+#nav > ul > li > ul{
+    display: none;
+    position: absolute;
+}
+#nav > ul > li:hover > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    background-color: #3A2F2F;
+    list-style: none;
+    top:5px;
+    left:40px;
+}
+
+#nav ul li ul li a:hover{
+    font-weight: bold;
+}
+
+/* FIN MENU DESPLEGABLE */
+
+/*NOTICIAS*/
+
+/*INICIO*/
+
+#ruta{
+    color: black;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    height: 50px;
+    width: 1000px;
+}
+
+#ruta ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+#ruta ul li{
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#noticias{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-right: 70px;
+    margin-left: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#noticias ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap row;
+}
+
+#noticias ul li{
+    list-style: none;
+    width: 450px;
+    border: 1px;
+    border:1px solid rgb(187, 186, 186);
+    padding: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    color: black;
+}
+#noticias ul li h2{
+    font-size: 22px;
+    color: red;
+}
+#noticias ul li p{
+    color: #7c7777;
+    text-align: justify;
+}
+#noticias ul li img{
+    height: 236px;
+    width: 450px;
+}
+
+#noticias2 a:link{
+  color: #fb0000;
+  text-decoration: none;
+}
+
+#noticias2 a:hover{
+    font-weight: bold;
+}
+
+
+#noticias2{
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-left: 30px;
+}
+
+#noticias2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#noticias2 ul li{
+    padding: 15px;
+    list-style: none;
+    width: 300px;
+    padding: 20px;
+    border:1px solid rgb(187, 186, 186);
+    margin-left: 1px;
+    margin-right: 1px;
+    color: red;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+#noticias2 ul li img{
+    height: 169px;
+    width: 298px;
+}
+#noticias2 ul li h2{
+    font-size: 18px;
+    text-align: start;
+}
+
+#noticias2 p{
+    font-size: 15px;
+    color:#7c7777
+}
+
+
+
+#noticias3{
     margin-top: 20px;
 }
 
@@ -409,80 +306,6 @@
     list-style: none;
     width: 970px;
     padding: 20px;
-    
-    margin-left: -500px;
-    margin-right: 1px;
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-end;
-}
-
-#noticias3 ul li img{
-    height: 169px;
-    width: 298px;
-}
-#noticias3 ul li h2{
-    align-self: center;
-    margin-left: 20px;
-}
-
-    
-    .noticia-p h3{
-        color:#FB0000; 
-        font-size: 30px;
-    }
-    
-    .noticia-p img{
-        margin-top: 15px;
-    }
-    
-    .noticia-p p{
-        margin-top: 10px;
-        font-size: 16px;
-    }
-
-
-
-    
-    .noticia-s{
-        margin-top: 10px;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
-        width: 90%;
-        max-width: 1800px;
-    }
-
-    .noticia1{
-        display: flex;
-        flex-wrap: ro wrap;
-        justify-content:;
-        margin-top: 2%;
-        
-        border:  1px solid rgb(187, 186, 186)
-        
-   
-
-   }
-   #noticias1{
-    margin-top: 20px;
-}
-
-#noticias1 ul{
-    list-style: none;
-    display: flex;
-    flex-flow: column wrap;
-    list-style: none;
-    margin-left: 45px;
-}
-
-#noticias1 ul li{
-    padding: 15px;
-    list-style: none;
-    width: 970px;
-    padding: 20px;
-    border:1px solid rgb(187, 186, 186);
     margin-left: 1px;
     margin-right: 1px;
     display: flex;
@@ -497,212 +320,234 @@
 #noticias3 ul li h2{
     align-self: center;
     margin-left: 20px;
-}    
-
-
-    /* cohete */
-    
-    
-    .contenido-pub{
-        object-fit: cover;
-        justify-content: flex-end;
-        background-color: rgb(39, 37, 37);
-        height:  ;
-        margin-top: -150px;
-        width: 250px;
-        margin-left: -5%;
-
-       
-    }
-    
-    .cotizacion{
-        padding-top: 40px;
-        margin-top: -10px;
-     
-    }
-
-    
-    .form {
-        background-color: var(--blanco);
-        border-radius: 10px;
-        height: 180px;
-        width: 180px;
-        margin: 50px 20px;
-        display: flex;
-        flex-flow: column wrap;
-        align-content: center;
-        justify-content: space-evenly;
-    }
-    
-    .form form h4 {
-        color: var(--rojo);
-        text-align: center;
-        padding: 0;
-        margin: 0;
-    }
-    
-    input {
-        margin: 7px 10px;
-        width: 150px;
-        height: 20px;
-    }
-    
-    .boton-rojo {
-        justify-content: center;
-        display: flex;
-    }
-    .boton {
-        background-color: var(--rojo);
-        color: var(--gris);
-        border-radius: 7px;
-        width: 70px;
-        border: none;
-        height: 25px;
-    }
-    
-    
-.envio{
-   
+    color: red;
+    font-size: 18px;
+    text-align: start;
+}
+#noticias3 ul li p{
+    font-size: 15px;
+    color:#7c7777;
+    margin-left: 20px;
 }
 
+#ultimas{
+    align-self: center;
+}
 
-    .publicidad {
-        width: 200px;
-        height: 780px;
-        right: 0px;
-        object-fit: cover;
-       margin-left: 10px;
-       margin-top: 10px;
-    }
-    
-    
-    .cohete2{
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        flex-flow: row wrap;
-        margin-top: 0;
-        margin-left: -8px;
+/*FIN*/
 
-
-    }
-    
-    
-    /* footer */
-    footer {
-        color: var(--blanco);
-        margin: 0;
-        padding: 0;
-        height: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-content: flex-end;
-        background-color: rgb(39, 37, 37);
-        width: 100%;
-    }
-    
-    
-    footer p {
-        text-align: center;
-        color: var(--rojo);
-        padding-bottom: 10px;
-        margin-bottom: 0;
-        padding-top: 0;
-        
-    }
-    
-    footer ul li{
-        display: flex;
-        flex-flow: column wrap;
-        align-content: left;
-        margin-bottom: 10px;
-    
-    }
-    
-    
-    footer a {
-        color: var(--blanco);
-        font-size: 15px;
-        text-decoration: none;
-        list-style: square;
-    }
-    
-    footer a:hover {
-        font-weight: bold
-    }
-    
-    footer h2 {
-        font-size: 18px ;
-    }
-    
-    footer img {
-        width: 220px;
-        height: 130px;
-        margin-left: 50px;
-        padding-top: 60px;
-    }
-    
-    .pie {
-        width: 100%;
-        justify-content: space-between;
-        display: flex;
-        flex-flow: row wrap;
-        align-content: center;
-    }
-    
-    .contactos {
-        padding-right: 0px;
-    }
-    .icon-socia {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .redes {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-end;
-        margin-right: 190px;
-    }
-    .redes i {
-        font-size: 50px;
-        padding: 10px;
-    }
-    
-    .facebook i {
-        color: rgb(58, 58, 196);
-    }
-    
-    .facebook i:hover {
-        color: rgb(95, 95, 226);
-    }
-    
-    .twitter i {
-        color: rgb(0, 217, 255);
-    }
-    
-    .twitter:hover {
-        color: rgb(54, 183, 206) ;
-    }
-    
-    .instagram i {
-        color: rgb(214, 52, 174);
-    }
-    
-    .instagram:hover {
-        color: rgb(187, 43, 151);
-    }
-    
-    .circulo2 {
-        font-size: 10px;
-        border-radius: 90%;
-    }
-
-
-
-.contenedor{
+/*Aside*/
+/*INICIO*/
+#todo {
     display: flex;
-    width: 100%;
-    max-width: 1920px;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-top: 160px;;
 }
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #3a2f2f;
+    align-items: center;
+    width: 80px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+    #dolar {
+        width: 200px;
+        margin-top: 8px;
+    }
+
+    .form {
+        border-color:red solid 1px;
+        border-radius: 10px;
+        text-align: center;
+        color:red;
+        margin-top: 25px;
+        background-color: #ffffff;
+        width: 200px;
+    }
+        .form input {
+            margin: 1em;
+        }
+            .boton-rojo .boton {
+                background-color: red;
+                border-radius: 7px;
+                width: 70px;
+                border: none;
+                height: 25px;
+                color: white;
+            }
+.form h2{
+    text-transform: uppercase;
+    color: #FB0000;
+    padding: 5px 0px;
+    text-decoration: underline;
+}
+
+    #p39a {
+        display: flex;
+        flex-flow: column wrap;
+        width: 200px;
+    }
+            #gifcohet {
+                object-fit: cover;
+                width: 200px;
+                height: 400px;
+                margin-top: 25px;
+            }
+    #contenido #instagram img{
+        margin-top: 25px;
+        align-self: center;
+        width: 200px;
+        height: 640px;
+    }
+/*FIN*/
+
+/*Gifs*/
+/*INICIO*/
+
+#giffinal img{
+    padding: 20px;
+    margin-left: 90px;
+    height: 300px;
+    width: 400px;
+}
+
+#gifcentral img{
+    width: 950px;
+    height: 260px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+/*FIN*/
+
+/*footer*/
+/*INICIO*/
+
+footer a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    list-style: square;
+}
+
+
+#footer{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #1b1919;
+    justify-content: space-between;
+    align-content:center;
+    height: 280px;
+    margin-top: 30px;
+}
+
+#footer img{
+    margin-left: 50px;
+    width: 220px;
+    height: 120px;
+    margin-top: 30px;
+}
+
+#footer ul{
+    color: white;
+    list-style: none;
+}
+
+#footer #secciones{
+    align-self: flex-start;
+    margin-left: 50px;
+    color: #FFFFFF;
+}
+
+#footer #secciones li{
+    padding-top: 15px;
+    display: flex;
+    flex-flow: row;
+}
+#footer #secciones a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#footer #secciones a:hover{
+    font-weight: bold;
+}
+
+footer h2 {
+    font-size: 18px ;
+}
+
+#footer #contfoot h2{
+    margin-left: 100px;
+}
+
+#footer #contfoot li{
+    padding: 5px;
+}
+
+#footer #contfoot #contacto3{
+    margin-top: 10px;
+}
+
+
+.redes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-right: 190px;
+}
+.redes i {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.facebook i {
+    color: rgb(58, 58, 196);
+}
+
+.facebook i:hover {
+    color: rgb(95, 95, 226);
+}
+
+.twitter i {
+    color: rgb(0, 217, 255);
+}
+
+.twitter i:hover {
+    color: rgb(54, 183, 206) ;
+}
+
+.instagram i {
+    color: rgb(214, 52, 174);
+}
+
+.instagram i:hover {
+    color: rgb(187, 43, 151);
+}
+
+#derechos{
+    background-color: #1b1919;
+}
+#derechos p{
+    color: red;
+    text-align: center;
+}
+
+/*FIN*/
+
+
+
+
+
+
+
+
+
+
+
+
