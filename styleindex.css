@@ -59,14 +59,14 @@
     flex-direction: column;
     align-items: center;
     width: 200px;
-    height: 96%;
+    height: 85%;
     background-color:  rgb(39, 37, 37);
     list-style: none;
     position:fixed;
     left: 40px;
     justify-content: space-evenly;
     align-content: flex-start;
-    top: 0;
+    top: 10px;
     padding-right: 24px;
     border: none;
 }
@@ -83,14 +83,14 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 40px 40px 50px 50px;
-    width: 900px;
+    width: 1100px;
 }
 
 .img-noticia img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 900px;
+    width: 1100px;
     height: 500px;
     object-fit: cover;
 }
@@ -131,9 +131,10 @@ h1 {
 }
 
 .minigif img {
-    height: 250px;
+    height: 230px;
     width: 320px;
     object-fit:cover;
+    padding-top: 0px;
     
 }
 
@@ -260,8 +261,12 @@ body li {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 40px 40px 50px 50px;
-    width: 900px;
+    width: 1000px;
 
+}
+
+.espacio {
+    padding-top: 10px;
 }
 
 .gif img {
@@ -352,7 +357,6 @@ b {
 
 .container-gif-inicio img {
     width: 380px;
-    padding-top: 60px;
     margin: 0;
     padding-left: 0;
     padding-right: 5px;
@@ -511,13 +515,14 @@ footer a:hover {
 
 footer h2 {
     font-size: 18px ;
+    margin-bottom: 5px;
 }
 
 footer img {
     width: 200px;
     height: 94px;
     margin-left: 50px;
-	padding-top: 80px;
+	padding-top: 110px;
 	margin-top: 50px;
 }
 
@@ -532,6 +537,21 @@ footer img {
 
 .contacto {
     padding-right: 0px;
+    padding-top: 70px;
+}
+
+.contacto > li {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.secciones {
+    padding-top: 70px;
+}
+
+.secciones li {
+    margin: 6px;
 }
 
 .social {
