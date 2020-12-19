@@ -15,8 +15,7 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 100%;
-	display: flex;    
+	height: 100%;    
 }
 
 header {
@@ -27,6 +26,15 @@ header {
 	position: fixed;
 	z-index: 5;
 	width: 100%;
+}
+
+h1 {
+	color: var(--rojo);
+	font-size: 35px;
+	text-align: center;
+	margin: 0;
+	padding-top: 30px;
+	padding-left: 25px;
 }
 
 nav {
@@ -53,7 +61,11 @@ header a:hover {
 	width: 30px;
 	align-content: center;
 	padding-left: 5px;
-	padding-top: 30px;
+	padding-top: 10px;
+}
+
+#envivocirculo {
+	font-size: 15px;
 }
 
 #menu-desplegable {
@@ -113,8 +125,8 @@ header a:hover {
 	.logo-principal {
 		width: 200px;
 		margin: 0;
-		height: 100px;
-		padding-top: 15px;
+		height: 94px;
+		padding-left: 35px;
 	}
 
 	.logoymenu {
@@ -123,47 +135,84 @@ header a:hover {
 		justify-content: flex-start;
 	}
 
+	.caminito {
+		padding-left: 10px;
+	}
+
+	.caminito a {
+		color: var(--gris);
+		padding-left: 10px;
+	}
+
 	.container-encabezado {
 		flex-flow: row wrap;
 		display: flex;
 		justify-content: space-between;
 		width: 100%;
+		height: 97px;
 }
 
 .encabezado img {
 	margin-left: 0;
 }
 
-
 .clima {
-	margin: 15px;
+	margin: 0;
 	padding-right: 10px;
  }
  /* apartir de acá empiezan las secciones */
 .container-principal {
-	height: 1000px;
+	width: 1100px;
+	height: auto;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: right;
 	align-content: center;
-	padding-left: 60px;
-	width: 1000px;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+
+.container-gif {
+	width: 190px;
+	padding: 10px;
+	height: auto;
+}
+
+.container-gif  img{
+	width: 190px;
+	height: auto;
+	padding-top: 10px;
+}
+
+.primer-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding-left: 20px;
 }
 
 .container-principal img {
 	width: 300px;
-	height: 200px;
+	height: auto;
 	padding: 15px;
-	padding-left: 70px;	
+	padding-left: 90px;	
+	justify-content: center;
+	display: flex;
 }
 .container-principal p , h2 {
 	padding: 10px;
 }
 .noticia-principal {
-	width: 450px;
+	width: 500px;
 	height: auto;
 	align-content: center;
 	border: 1px solid rgb(187,186,186);
+	margin-top: 30px;
+}
+
+.noticia-principal a {
+	text-decoration: none;
+	color: var(--gris);
 }
 
 #primera {
@@ -171,23 +220,57 @@ header a:hover {
 	justify-content: space-between;
 	display: flex;
 	padding-top: 8rem;
-	margin-top: 120px;
 	width: 100%;
+}
+
+#relleno {
+	height: auto;
+	width: 1100px;
+	display: flex;
+	flex-flow: column wrap;
+	margin-top: 30px;
+}
+
+.noticia-relleno {
+	width: 1100px;
+	height: auto;
+	padding: 0px 15px 15px 0 ;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	
+}
+
+.texto {
+	width: 790px;
+	padding: 30px 0px;
+}
+
+.texto a {
+	text-decoration: none;
+	color: var(--rojo);
+	font-size: 18px;
+}
+
+.noticia-relleno img {
+	width: 250px;
+	padding: 30px 10px 30px 0px;
+	
 }
 
 .aside {
 	object-fit: cover;
-	justify-content: flex-end;
+	justify-content: center;
 	background-color: var(--gris);
 	height: 100%;
 	flex-direction: column;	
+	padding-top: 10px;
+	margin-top: 50px;
+
 }
 
-	.divisa {
-		padding-top: 30px;
-	}
 
-	form {
+form {
 		background: var(--blanco);
 		border-radius: 10px;
 		height: 180px;
@@ -197,19 +280,24 @@ header a:hover {
 		flex-flow: column wrap;
 		justify-content: space-evenly;
 		align-content: center;
-	}
+}
 
-	.form h3 {
+form h3 {
 		color: var(--rojo);
 		text-align: center;
 		padding: 0;
 		margin: 0;
 	}
 
-	input {
+input {
 		margin: 7px 10px;
 		width: 150px;
 		height: 20px;
+}
+
+.boton-rojo {
+	justify-content: center;
+	display: flex;
 }
 
 .boton {
@@ -222,26 +310,34 @@ header a:hover {
 }
 
 .publi {
-	width: 200px;
+	width: 190px;
 	height: 780px;
 	right: 0px;
 	object-fit: cover;
+	padding: 10px;
+	margin-top: 15px;
 }
 
 .noticia-secundaria {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	margin-bottom: 30px;
-	padding-left: 15px;
+	margin-top: 15px;	
 }
 
 .mini-noticia {
-	width: 220px;
+	width: 270px;
 	padding: 40px;
 	border: 1px solid rgb(187, 186, 186);
-	height: 450px;
+	height: 430px;
+	color: var(--gris);
+	font-size: 16px;
+	margin-top: 40px;
 	
+}
+
+.mini-noticia p {
+	padding-top: 0;
 }
 
 b {
@@ -249,12 +345,131 @@ b {
 }
 
 .mini-noticia img {
-	width: 200px;
-	padding-left: 15px;	
+	width: 250px;
+	padding-left: 15px;
+	height: auto;
+	
 }
 
+.mini-noticia a {
+	text-decoration: none;
+	color: var(--gris);
+}
+
+b {
+	color: var(--rojo);
+}
 .noti {
 	text-decoration: none;
 	color: var(--gris);
 	text-align: left;
+}
+
+#envivo-footer {
+    font-size: 11px;
+}
+
+footer {
+    color: var(--blanco);
+    margin: 0;
+    padding: 0;
+    height: 254px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-end;
+    background-color: var(--gris);
+}
+
+
+footer p {
+    text-align: center;
+    color: var(--rojo);
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+footer ul li{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: left;
+    margin-bottom: 10px;
+}
+
+
+footer a {
+    color: var(--blanco);
+    font-size: 15px;
+    text-decoration: none;
+    list-style: square;
+}
+
+footer a:hover {
+    font-weight: bold
+}
+
+footer h2 {
+    font-size: 18px ;
+}
+
+footer img {
+    width: 200px;
+    height: 94px;
+    margin-left: 50px;
+	padding-top: 80px;
+	margin-top: 50px;
+}
+
+.container-footer {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+	align-content: center;
+	height: 250px;
+}
+
+.contacto {
+    padding-right: 0px;
+}
+
+.social {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.redes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-right: 190px;
+}
+.redes i {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.facebook i {
+    color: rgb(58, 58, 196);
+}
+
+.facebook i:hover {
+    color: rgb(95, 95, 226);
+}
+
+.twitter i {
+    color: rgb(0, 217, 255);
+}
+
+.twitter i:hover {
+    color: rgb(54, 183, 206) ;
+}
+
+.instagram i {
+    color: rgb(214, 52, 174);
+}
+
+.instagram i:hover {
+    color: rgb(187, 43, 151);
 }
