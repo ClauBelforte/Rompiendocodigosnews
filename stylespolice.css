@@ -139,6 +139,16 @@ header a:hover {
 		padding-left: 10px;
 	}
 
+	.caminito input {
+		border-radius: 11px;
+		font-size: 15px;
+		height: 25px;
+		border-color:none;
+		box-shadow: none;
+	}
+
+
+
 	.caminito a {
 		color: var(--gris);
 		padding-left: 10px;
@@ -209,6 +219,8 @@ header a:hover {
 	border: 1px solid rgb(187,186,186);
 	margin-top: 30px;
 }
+
+
 
 .noticia-principal a {
 	text-decoration: none;
