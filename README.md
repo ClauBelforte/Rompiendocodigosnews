@@ -2,7 +2,7 @@
 <html>
     <body>
     <header>
-       <img  src="imagenes/faviicon.png" alt="">
+                                                                          <img  src="imagenes/faviicon.png" alt="">
     </header>
 <div style="padding-left: 10%;
 padding-right: 10%;">
