@@ -180,7 +180,7 @@ h1{
 }
 a.mini-noticia{
     text-decoration: none;
-    color: rgb (39,37,37)
+    color: rgb (39,37,37);
 }
 .container-sec{
     width: 290px;
@@ -188,6 +188,8 @@ a.mini-noticia{
     border: 1px solid rgb(187, 186, 186);
     color: rgb(39, 37, 37);
     padding: 20px;
+    
+}
 }
 .container-sec img{
     width: 230px;

@@ -22,7 +22,7 @@
 #icon-menu img{
     width: 30px;
     align-content: center;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 #menudes > ul > li > ul > li > a {
@@ -75,6 +75,7 @@
 
 h1 {
     font-size: 30px;
+    margin-bottom: 0;
 }
 
 .img-noticia {
@@ -153,6 +154,10 @@ i {
     font-size: 15px;
 }
 
+#envivocirculo {
+    font-size: 15px;
+}
+
 .logoymenu {
     display: flex;
     flex-flow: row wrap;
@@ -163,7 +168,8 @@ i {
     width: 200px;
     margin: 0;
     height: 100px;
-    padding-top: 15px;
+    padding-top: 0;
+    padding-left: 25px;
 }
 
 .container-slider {
@@ -171,6 +177,7 @@ i {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: 97px;
 }
 
 .container-slider img {
@@ -186,19 +193,19 @@ i {
 .gifp39 {
    margin-top: 3px;
    margin-bottom: 2px;
-   height: 111px;
+   height: 93px;
    padding-left: 17px;
 }
 .gifp39 img {
-    height: 110px;
+    height: 93px;
     object-fit: cover;
-    width: 670px;
+    width: 590px;
     padding: 0;
 }
 .clima {
    margin:0x;
    padding-right: 10px;
-   padding-top: 15px;
+   padding-top: 0;
 
 }
 
@@ -372,7 +379,7 @@ b {
     align-items: center;
     background-color: var(--gris);
     height: 100% ;
-    margin-top: 70px;
+    margin-top: 55px;
     width: 205px;
     
 }
@@ -459,14 +466,14 @@ img.publicidad {
 /* Footer */
 
 #envivo-footer {
-    font-size: 9px;
+    font-size: 11px;
 }
 
 footer {
     color: var(--blanco);
     margin: 0;
     padding: 0;
-    height: auto;
+    height: 254px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -507,10 +514,11 @@ footer h2 {
 }
 
 footer img {
-    width: 220px;
-    height: 130px;
+    width: 200px;
+    height: 94px;
     margin-left: 50px;
-    padding-top: 60px;
+	padding-top: 80px;
+	margin-top: 50px;
 }
 
 .container-footer {
@@ -518,7 +526,8 @@ footer img {
     justify-content: space-between;
     display: flex;
     flex-flow: row wrap;
-    align-content: center;
+	align-content: center;
+	height: 250px;
 }
 
 .contacto {
