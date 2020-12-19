@@ -424,6 +424,7 @@ div #fasfa-circle{
     height: 260px;
     margin-left: 80px;
     margin-top: 20px;
+    object-fit: cover;
 }
 /*FIN*/
 
