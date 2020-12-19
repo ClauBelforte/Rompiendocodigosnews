@@ -1,262 +1,437 @@
-body{
-    background-color: #ffffff;
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    padding: 0%;
-    margin: 0;
-}
-.caminito{
-    width: 300px;
-    color: rgb(39, 37, 37);
-    list-style: none;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-
-}
-.caminito a{
-    margin-top: 50px;
-    width: auto;
-    height: auto;
-}
-
-nav{
-    background-color: #3a2f2f;
-    height: 40px;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-    display: flex;
-    margin: 0;
-}
-header a{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-}
-header a:hover{
-    font-weight: bold;
-}
-
-#menudespl{
-    display: flex;
-    justify-content: start;
-    align-content: flex-start;
-    list-style: none;
-}
-#menudespl ul{
-    padding-left: 10px;
-    list-style: none;
-}
-#menudespl > ul > li > ul{
-    display: none;
-    position: absolute;
-    list-style: none;
-    justify-content: center;
-    align-content: center;
-}
-#menudespl > ul > li > ul > li > a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    text-align: center;
-    padding: 0;
-    list-style: none;
-    margin: 0;
-}
-#menudespl > ul > li > ul > li > a :hover{
-    font-weight: bold;
-}
-#menudespl > ul > li > ul > li > img {
-    width: 200px;
-    padding-left: 10px;
-    margin: 0;
-}
-
-#menudespl > ul > li:hover > ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 200px;
-    height: 100%;
-    background-color: #0d0c0c;
-    list-style: none;
-    position: fixed;
-    left: 40px;
-    justify-content: space-evenly;
-    align-content: flex-start;
-    top: 0;
-    padding-right: 24px;
-
-}
-
-#icon-menu img{
-    width: 30px;
+*{
     margin: 0px;
     padding: 0px;
-    align-content: center;
-    padding-left: 5px;
-    padding-top: 30px;
     list-style: none;
+    text-decoration: none;
+    
 }
 
-header {
-    background-color: white;
-    flex-flow: row wrap;
-    display: flex;
-    justify-content: flex-start;
-    position: fixed;
-    z-index: 4;
-    width: 100%;
-    margin: 0;
-}
-.logoinicio{
-    width: 200px;
-    margin: 0;
-    height: 100px;
-    padding-top: 15px;
-}
-h1{
+
+body{
     font-family: 'Raleway', sans-serif;
-    font-size: 35px;
-    margin: 0px 0px 0px 100px;
-    color:  #fb0000;
-    align-self: center;
-}
+    padding-top: 160px;
 
-.logoymenu {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: space-between;    
 }
+/* INICIO CABEZERA */
+header{
+    width: 100%;
+    background-color: #FFFFFF;
 
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    
+}
+#encabezado{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+}
 #cabecera{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 100%;
-}
-#noticias{
-    padding-top: 8rem;
-    flex-flow: row wrap;
-    display: flex;
-    justify-content: space-between;
-}
-.noticiasprinc{
-    height: 600px;
-    display: flex;
-    flex-flow: row wrap;
-    align-content: center;
     justify-content: flex-start;
-    margin-left: 50px;
+}
+#cabecera div{
     margin-top: 50px;
+    margin: 10px;
+    font-size: xx-large;
+    line-height: 75px;
 }
-.noticiasprinc img{
-    width: 400px;
-    height: 200px;
-    padding: 40px;
+#cabecera h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    color: #FB0000;
+    align-self: center;
+    margin-left: 200px;
 }
-.container-principal{
-    align-content: center;
-    width: 500px;
-    height: auto;
-    border: 1px solid rgb(187, 186, 186);
+#icon-menu img{
+    width: 30px;
 }
-.noticiasprinc p, h2{
-    padding: 10px;
-}
-.noticiasprinc h2{
-    color: red;
-}
-.noticiassec{
-    display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    justify-content: flex-start;
-    margin-bottom: 30px;
-    padding-left: 50px;
-    width: 1000px;
-}
-a.mini-noticia{
-    text-decoration: none;
-    color: rgb (39,37,37);
-}
-.container-sec{
-    width: 290px;
-    height: 430px;
-    border: 1px solid rgb(187, 186, 186);
-    color: rgb(39, 37, 37);
-    padding: 20px;
-    
-}
-}
-.container-sec img{
-    width: 230px;
-    padding: 20px 40px 40px 40px;
-}
-
-a{
-    font-size: 16px;
-    color: rgb (39,37,37);
-    text-decoration: none;
-}
-b{
-    color: #fb0000;
-    text-align: start;
-    margin-top: 5px;
-}
-.publicidad{
-    object-fit: cover;
-    justify-content: center;
-    background-color: gray ;
-    margin-top: 35px;
-    align-items: center;
-    height: 100%;
-    width: 205px;
-}
-.publi{
-    height:780px;
-    width: 200px;
-    right: 0;
-    object-fit: cover;
-}
-i{
-    color: red;
-    font-size: 15px;
-}
-.footer{
-    width: 100%;
-    color: white;
-    background-color: black;
-    display: flex;
-    justify-content: space-around;
-}
-.footer a{
-    text-decoration: none;
-    color: white;
-}
-.footer a:hover{
+#menu nav ul li a:hover{
     font-weight: bold;
 }
-.footer img {
-    width: 220px;
-    height: 130px;
-    margin-left: 50px;
-    padding-top: 60px;
+#cabecera .clima{
+    width: 300px;
+    height: 70px !important;
+    margin-left: 150px;
+
+}
+ul li a i{
+    color: #FB0000;
+}
+/* MENU DEPLeGABLE */
+#nav > ul > li > ul > li{
+    padding: 0;
+    margin: 0;
+}
+#nav > ul > li > ul > li{
+    height: 60px;
 }
 
-.footer>ul{
+#nav > ul > li > ul > li > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+    }
+#nav > ul > li > ul > li > img{
+    width: 200px;
+    padding: 5px 0px;
+}
+#nav > ul > li > ul{
+    display: none;
+    position: absolute;
+}
+#nav > ul > li:hover > ul{
+    width: 250px;
+    height: auto;
+    background-color: #3A2F2F;
     list-style: none;
+    
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+    position:fixed;
+    top:5px;
+    left:40px
+}
+/* FIN MENU DESPLEGABLE */
+
+header #imgCabecera img{
+    margin-left: 40px;
+    width: 200px;
+}
+.class{
+    width: 200px;
+    height: 70px !important;
+    margin-left: 300px;
+}
+#menu{
+    height: 45px;
+    background-color: #3A2F2F;
+
+}
+#menu nav ul {
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-evenly;
+}
+#menu nav ul li{
+    font-size: 18px;
+    padding: 15px;
+    list-style: none;
+    color: #FFFFFF;
+}
+#menu nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.vivo{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #FB0000;
+    margin-right: 10px;
+}
+/* FIN DEL HEADER */
+
+/* INICIO MAIN */
+#main{
+    width: 80%;
+    
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+}
+main section{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+main h2{
+    padding: 10px;
+}
+.ubicacion{
+    width: 700px;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.ubicacion ul{
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+}
+.ubicacion ul li{
+    padding-right:10px;
+    
+}
+.ubicacion ul li a{
+    text-decoration: none;
+    color: #3A2F2F;
+}
+
+.ubicacion ul li a:hover{
+    border-bottom: 1px solid #3A2F2F;
+}
+main section article{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+main section .art-principal{
+    width: 41%;
+    height:395px;
+    border: 1px solid rgb(187, 186, 186);
+    color: #FB0000;
+}
+main section article a{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+main section article h2{
+    text-decoration: none;
+    color: #FB0000;
+    font-size: 22px;
+    text-align: left;
+}
+p{
+    color: #7c7777;
+    text-align: justify;
+}
+main section .art-principal img{
+    width: 400px;
+    max-height: 173px;
+    padding: 10px;
+}
+
+main section .art-gral{
+    width: 300px;
+    height: inherit;
+    overflow: hidden;
+    border: 1px solid rgb(187, 186, 186);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+main section .art-gral figure{
+    width: 100%;
+    height: 158px;
+}
+main section .art-gral figure img{
+    width:100%;
+    max-height: 158px;
+}
+.art-gral h2{
+    font-size: 18px;
+    text-align: start;
+}
+.art-gral p{
+    font-size: 15px;
+    color:#7c7777
+}
+
+
+#relleno{
+    flex-direction: column;
+    margin: 10px;
+}
+#relleno article{
+    width: 97%;
+    height: auto;
+    border: none;
+    text-align: justify;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+main section .img-relleno figure img{
+    width:250px;
+    height: 140px;
+}
+#relleno article div{
+    padding: 10px;
     display: flex;
     flex-direction: column;
+    align-items: inherit;
 }
-.social-media>ul{
+#relleno article h2{
+    width: 100%;
+    text-align: start;
+    font-size: 18px;
+}
+#aside{
+    width: 17%;
+}
+aside{
+    width: 90%;
+    padding: 5%;
+    background-color: #3A2F2F;
+    margin-right: 25px;
+    margin-top: -35px;
+}
+#aside aside img{
+    width: 208px;
+    height: auto;
+    align-self: center;
+    padding-top: 15px;
+}
+aside form{
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-radius: 5%;
+    padding: 5px 0px;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+aside form input{
+    padding: 5px 0px;
+    margin: 10px 0px;    
+}
+aside h2{
+    text-transform: uppercase;
+    color: #FB0000;
+    padding: 5px 0px;
+    text-decoration: underline;
+}
+aside form input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    background-color: #FB0000;
+    color: #FFFFFF;
+    border: 1px solid #FB0000;
+    border-radius: 10px;
+}
+aside #cohete img{
+    padding-top: 15px;
+    width: 208px;
+    height: 500px;
+}
+
+
+/*FIN MAIN
+
+INICIO FOOTER */
+footer{
+    width: 100%;
+    height: inherit;
+    margin-top: 30px;
+    background-color: #3A2F2F;
+    padding-top: 10px;
+}
+#footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer img{
+    margin-left: 50px;
+    width: 220px;
+    height: 120px;
+    margin-top: 30px;
+
+    align-self: flex-start;
+}
+#footer ul{
+    color: white;
     list-style: none;
 }
-.pie{
-    color: red;
+#footer ul{
+    align-self: flex-start;
+    margin-left: 50px;
+}
+#footer ul li{
+    padding: 8px;
+}
+#footer ul:first-child{
+    margin-bottom: 10px;
+}
+#footer ul a{
+    text-decoration: none;
+    color: white;
+}
+#footer ul a:hover{
+    font-weight: bold;
+}
+#footer #contfoot h2{
+    margin-left: 100px;
+}
+#footer #contfoot li{
+    padding: 5px;
+}
+#footer #contfoot #contacto3{
+    margin-top: 10px;
+}
+.redes {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-right: 190px;
+}
+.redes i {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.facebook i {
+    color: rgb(58, 58, 196);
+}
+
+.facebook i:hover {
+    color: rgb(95, 95, 226);
+}
+
+.twitter i {
+    color: rgb(0, 217, 255);
+}
+
+.twitter i:hover {
+    color: rgb(54, 183, 206) ;
+}
+
+.instagram i {
+    color: rgb(214, 52, 174);
+}
+
+.instagram i:hover {
+    color: rgb(187, 43, 151);
+}
+
+#derechos{
+    background-color: #3A2F2F;
+    height: max-content;
+    padding-bottom: 10px;
+}
+#derechos p{
+    color: #ffffff;
+    text-align: center;
 }
