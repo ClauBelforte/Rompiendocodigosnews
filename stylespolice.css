@@ -184,6 +184,8 @@ header a:hover {
 	flex-direction: column;	
 	padding-top: 10px;
 	margin-top: 15px;
+	margin: 15px 0px 0px;
+	padding: 15px 0px 0px;
 }
 
 	.divisa {
@@ -276,7 +278,8 @@ footer {
 	color: var(--blanco);
 	margin: 0px;
 	padding: 0px;
-	height: 290px;
+	width: 50px;
+	height: 500px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -370,3 +373,4 @@ footer img {
 .instagram i:hover {
 	color: rgb(187, 43, 151);
 }
+
