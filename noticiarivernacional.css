@@ -334,6 +334,7 @@ div #fasfa-circle{
     margin-left: 70px;
     height: 300px;
     width: 340px;
+    object-fit: cover;
 }
 
 #gifcentral img{
