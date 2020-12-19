@@ -344,6 +344,7 @@ footer{
     margin-top: 30px;
     background-color: #3A2F2F;
     padding-top: 10px;
+    font-size: 18px;
 }
 #footer{
     display: flex;
@@ -362,20 +363,26 @@ footer{
 #footer ul{
     color: white;
     list-style: none;
-}
-#footer ul{
+    font-size: 18px;
     align-self: flex-start;
     margin-left: 50px;
 }
 #footer ul li{
     padding: 8px;
 }
+#footer h2{
+    font-size: 18px;
+}
 #footer ul:first-child{
     margin-bottom: 10px;
+}
+#footer a{
+    font-size: 18px;
 }
 #footer ul a{
     text-decoration: none;
     color: white;
+    font-size: 18px;
 }
 #footer ul a:hover{
     font-weight: bold;
