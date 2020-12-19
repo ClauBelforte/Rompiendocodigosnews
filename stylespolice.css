@@ -110,15 +110,15 @@ header a:hover {
 		flex-direction: column;
 		align-content: center;
 		width: 200px;
-		height: 100%;
-		background-color: var(--negro);
+		height: 85%;
+		background-color: var(--gris);
 		list-style: none;
 		position: fixed;
 		left: 40px;
 		justify-content: space-evenly;
 		border: none;
 		padding-right: 24px;
-		top: 0;
+		top: 10px;
 		text-align: center;
 	}
 	
@@ -411,13 +411,14 @@ footer a:hover {
 
 footer h2 {
     font-size: 18px ;
+    margin-bottom: 5px;
 }
 
 footer img {
     width: 200px;
     height: 94px;
     margin-left: 50px;
-	padding-top: 80px;
+	padding-top: 110px;
 	margin-top: 50px;
 }
 
@@ -432,6 +433,21 @@ footer img {
 
 .contacto {
     padding-right: 0px;
+    padding-top: 70px;
+}
+
+.contacto > li {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.secciones {
+    padding-top: 70px;
+}
+
+.secciones li {
+    margin: 6px;
 }
 
 .social {
