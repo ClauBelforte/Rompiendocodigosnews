@@ -16,7 +16,7 @@ padding-right: 10%;">
         <li><b>Algunos widgets</b></li>
     </ul>
     <br>
-    <h4>Fecha de entrega: 19 de diciembre de 2020</h4> 
+     
     <h4>Desarrolladores que trabajaron en este proyecto:</h4>
       
     <a href="https://github.com/matimza"><p><b>Matias Mendoza</b></p></a>
