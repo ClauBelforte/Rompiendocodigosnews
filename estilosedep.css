@@ -407,6 +407,13 @@ div #fasfa-circle{
         width: 200px;
         height: 640px;
     }
+    #contenido #meli img{
+        margin-top: 25px;
+        align-self: center;
+        width: 200px;
+        height: all;
+    }
+    
 /*FIN*/
 
 /*Gifs*/
