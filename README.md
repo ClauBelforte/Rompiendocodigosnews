@@ -17,7 +17,10 @@ padding-right: 10%;">
     </ul>
     <br>
     <h4>Desarrolladores que trabajaron en este proyecto:</h4>
+
     <h4>Fecha de entrega: 19 de diciembre de 2020</h4>   
+
+
     <a href="https://github.com/matimza"><p><b>Matias Mendoza</b></p></a>
     <a href="https://github.com/Priscilla-Rojas"><p><b>Priscilla Rojas</b></p></a>
     <a href="https://github.com/ClauBelforte"><p><b>Claudia Belforte</b></p></a>
@@ -43,4 +46,7 @@ padding-right: 10%;">
 </div>
 </body>
 
+
+=======
 </html>
+
